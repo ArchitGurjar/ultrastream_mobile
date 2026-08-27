@@ -1,0 +1,400 @@
+{
+  {
+  "_comment": "UltraStream Configuration File – Version 1.0",
+  "version": 1,
+  "app": {
+    "_comment": "Global application behaviour",
+    "name": "UltraStream",
+    "debugMode": false,
+    "offlineModeEnabled": true,
+    "defaultTheme": "dark",
+    "supportedLanguages": ["en", "es", "hi"],
+    "forceLandscapePlayer": true,
+    "enablePictureInPicture": true,
+    "enableBackgroundPlayback": true,
+    "enableChromecast": false,
+    "enableNotifications": true,
+    "enableAnalytics": false,
+    "enableCrashReporting": true,
+    "enableRemoteConfig": true
+  },
+  "ui": {
+    "_comment": "Global user interface settings",
+    "accentColor": "#38BDF8",
+    "backgroundColors": {
+      "dark": "#060606",
+      "light": "#FAFAFA"
+    },
+    "glassmorphism": {
+      "enabled": true,
+      "blur": 16,
+      "borderOpacity": 0.2,
+      "backgroundOpacity": 0.05
+    },
+    "typography": {
+      "fontFamily": "system",
+      "headlineLargeSize": 24,
+      "bodyMediumSize": 14
+    },
+    "animations": {
+      "enabled": true,
+      "durationMs": 300,
+      "easing": "fastOutSlowIn"
+    },
+    "poster": {
+      "width": 115,
+      "height": 173,
+      "cornerRadius": 12,
+      "showProgress": true,
+      "showRating": true,
+      "showYear": true
+    },
+    "heroCarousel": {
+      "enabled": true,
+      "height": 420,
+      "autoScrollDelayMs": 6000,
+      "showIndicators": true
+    },
+    "bottomNavigation": {
+      "enabled": true,
+      "style": "floating",
+      "items": ["home", "library", "search", "addons", "profile"]
+    },
+    "streamCard": {
+      "showAddonName": true,
+      "showQualityBadge": true,
+      "showLanguages": true,
+      "showSize": true,
+      "showSeeds": true
+    }
+  },
+  "home": {
+    "_comment": "Home screen layout and content",
+    "sections": {
+      "continueWatching": {
+        "enabled": true,
+        "maxItems": 10,
+        "cardWidth": 280,
+        "cardHeight": 157
+      },
+      "recommendations": {
+        "enabled": true,
+        "maxItems": 15
+      },
+      "trending": {
+        "enabled": true,
+        "maxItems": 15
+      },
+      "catalogs": {
+        "enabled": true,
+        "maxRows": 10,
+        "itemsPerRow": 20
+      }
+    },
+    "heroCarousel": {
+      "enabled": true,
+      "source": "trending",
+      "maxItems": 5
+    },
+    "emptyStateMessages": {
+      "continueWatching": "Start watching to see history",
+      "recommendations": "No recommendations yet",
+      "trending": "No trending content"
+    },
+    "refreshIntervalMinutes": 60
+  },
+  "search": {
+    "_comment": "Search screen behaviour",
+    "enabled": true,
+    "voiceSearchEnabled": true,
+    "debounceMs": 600,
+    "maxResults": 20,
+    "filters": {
+      "types": ["all", "movie", "series", "anime", "tv"],
+      "defaultType": "all",
+      "sortOptions": ["popular", "rating", "year"],
+      "defaultSort": "popular"
+    },
+    "history": {
+      "enabled": true,
+      "maxItems": 20,
+      "clearOnExit": false
+    },
+    "searchOnEmpty": true
+  },
+  "library": {
+    "_comment": "Library screen (saved items, watchlist, history, smart playlists)",
+    "sections": {
+      "smartPlaylists": {
+        "enabled": true,
+        "showExport": true,
+        "showPlayAll": true,
+        "showDelete": true
+      },
+      "library": {
+        "enabled": true,
+        "gridColumns": 3,
+        "showPosters": true
+      },
+      "watchlist": {
+        "enabled": true,
+        "gridColumns": 3
+      },
+      "history": {
+        "enabled": true,
+        "gridColumns": 3
+      }
+    },
+    "pullToRefresh": true,
+    "emptyStateMessages": {
+      "library": "Your saved items will appear here",
+      "watchlist": "Add items to your watchlist",
+      "history": "Your viewing history is currently empty",
+      "smartPlaylists": "No smart playlists created"
+    }
+  },
+  "details": {
+    "_comment": "Content details screen",
+    "showBackdrop": true,
+    "backdropHeight": 350,
+    "showCast": true,
+    "maxCastItems": 8,
+    "showTrailerButton": true,
+    "showIMDbButton": true,
+    "showResumeButton": true,
+    "showFindStreamsButton": true,
+    "episodeList": {
+      "showWatchedStatus": true,
+      "showProgress": true,
+      "showDescription": true
+    },
+    "seasonSelector": {
+      "enabled": true,
+      "style": "chips"
+    },
+    "streamsSheet": {
+      "qualityFilters": ["All", "480p", "720p", "1080p", "Verified", "Hindi"],
+      "defaultQualityFilter": "All",
+      "showRefresh": true,
+      "showRetry": true
+    },
+    "actionSheet": {
+      "actions": [
+        "play",
+        "markWatched",
+        "smartPlaylist",
+        "searchSubtitles",
+        "openInBrowser",
+        "copyUrl",
+        "download",
+        "exportM3u"
+      ]
+    }
+  },
+  "player": {
+    "_comment": "Video player settings",
+    "defaultResizeMode": "fit",
+    "controlsTimeoutMs": 5000,
+    "showLoadingOverlay": true,
+    "showParentalGuide": true,
+    "holdToSpeed": {
+      "enabled": true,
+      "defaultSpeed": 2.0
+    },
+    "touchGestures": {
+      "enabled": true,
+      "doubleTapSeekMs": 10000,
+      "verticalSwipeSensitivity": 0.5
+    },
+    "subtitleDefaults": {
+      "fontSize": 18,
+      "color": "#FFFFFF",
+      "backgroundColor": "#80000000",
+      "outlineEnabled": true,
+      "outlineWidth": 2,
+      "bold": false,
+      "bottomOffset": 0
+    },
+    "externalPlayer": {
+      "enabled": true,
+      "forwardSubtitles": true,
+      "sendSkipSegments": true
+    },
+    "audio": {
+      "loudnessBoost": true,
+      "equalizer": true,
+      "defaultVolume": 1.0
+    },
+    "sleepTimer": {
+      "enabled": true,
+      "defaultMinutes": 30
+    },
+    "skipIntro": {
+      "enabled": true,
+      "sources": ["github", "introdb", "addons"]
+    },
+    "nextEpisode": {
+      "autoPlay": true,
+      "thresholdMode": "percent",
+      "thresholdPercent": 90,
+      "thresholdMinutesBeforeEnd": 2
+    },
+    "decoder": {
+      "forceSoftwareOnFail": true,
+      "defaultHardware": true,
+      "useLibass": false,
+      "libassRenderType": "CUES"
+    },
+    "debrid": {
+      "preferDebrid": true,
+      "providerOrder": ["realdebrid", "alldebrid", "premiumize"]
+    },
+    "torrent": {
+      "enabled": false,
+      "engine": "none"
+    }
+  },
+  "addons": {
+    "_comment": "Addon management",
+    "enabled": true,
+    "recommendedAddons": [
+      {
+        "name": "HDHub",
+        "url": "https://hdhub.thevolecitor.qzz.io/eyJ0b3Jib3giOiJ1bnNldCIsInF1YWxpdGllcyI6IjIxNjBwLDEwODBwLDcyMHAiLCJzb3J0IjoiZGVzYyJ9/manifest.json",
+        "description": "High Quality Scraper"
+      },
+      {
+        "name": "Cinemeta",
+        "url": "https://cinemeta.strem.fun/manifest.json",
+        "description": "Metadata provider"
+      },
+      {
+        "name": "Juan Carlos 2",
+        "url": "https://juan-carlos.strem.fun/manifest.json",
+        "description": "4K sources"
+      },
+      {
+        "name": "Orion",
+        "url": "https://orion.strem.fun/manifest.json",
+        "description": "Premium scraper"
+      }
+    ],
+    "showImportExport": true,
+    "showHealthIndicator": true,
+    "allowCustomUrl": true
+  },
+  "debrid": {
+    "_comment": "Debrid service integration",
+    "enabled": true,
+    "providers": ["realdebrid", "alldebrid", "premiumize"],
+    "defaultProvider": "realdebrid",
+    "apiKeyRequired": true,
+    "cacheDebridResults": true,
+    "maxWaitSeconds": 60
+  },
+  "network": {
+    "_comment": "Network and caching",
+    "preferIPv4": true,
+    "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Mobile Safari/537.36",
+    "connectTimeoutSeconds": 60,
+    "readTimeoutSeconds": 120,
+    "writeTimeoutSeconds": 60,
+    "dns": {
+      "preferIPv4": true
+    },
+    "retryOnFailure": true,
+    "maxRetries": 3,
+    "retryDelayMs": 1000
+  },
+  "cache": {
+    "_comment": "Caching strategies",
+    "imageCache": {
+      "enabled": true,
+      "memoryCachePercent": 0.25,
+      "diskCacheSizeMB": 250,
+      "crossfade": false,
+      "allowHardware": true,
+      "precision": "INEXACT"
+    },
+    "streamCache": {
+      "enabled": true,
+      "maxSizeMB": 128,
+      "cacheChunks": true
+    },
+    "metadataCache": {
+      "ttlHours": 24,
+      "enabled": true
+    },
+    "streamLinkCache": {
+      "ttlHours": 24,
+      "enabled": true
+    },
+    "verifiedLinkCache": {
+      "ttlHours": 5,
+      "enabled": true
+    },
+    "deadLinkCache": {
+      "ttlDays": 7,
+      "enabled": true
+    }
+  },
+  "analytics": {
+    "_comment": "Analytics and crash reporting",
+    "firebase": {
+      "enabled": true,
+      "analyticsCollection": true,
+      "crashlytics": true,
+      "performanceMonitoring": true
+    },
+    "logEvents": true
+  },
+  "features": {
+    "_comment": "Feature flags to enable/disable entire features",
+    "homeScreen": true,
+    "libraryScreen": true,
+    "searchScreen": true,
+    "addonsScreen": true,
+    "profileScreen": true,
+    "analyticsScreen": true,
+    "catalogScreen": true,
+    "detailsScreen": true,
+    "playerScreen": true,
+    "downloads": true,
+    "smartPlaylists": true,
+    "subtitleSearch": true,
+    "voiceSearch": true,
+    "externalPlayer": true,
+    "casting": true,
+    "notifications": true,
+    "parentalControls": true,
+    "profiles": true,
+    "backupRestore": true,
+    "widget": true,
+    "shortcuts": true
+  },
+  "poster": {
+    "_comment": "Poster appearance overrides",
+    "aspectRatio": 0.67,
+    "showIMDbRating": true,
+    "ratingIcon": "star",
+    "titleFontSize": 10,
+    "ratingFontSize": 9,
+    "overlayStyle": "glass",
+    "progressBarHeight": 4,
+    "progressBarColor": "#38BDF8"
+  },
+  "scroll": {
+    "_comment": "Scrolling performance",
+    "preloadDistance": 1,
+    "recyclerPoolSize": 20,
+    "horizontalScrollSpeed": "fast"
+  },
+  "animations": {
+    "_comment": "Animation overrides",
+    "screenTransitions": true,
+    "listAnimations": true,
+    "heroImageTransition": true,
+    "loadingShimmer": true,
+    "durationScale": 1.0
+  }
+}
