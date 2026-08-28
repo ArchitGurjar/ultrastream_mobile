@@ -294,7 +294,7 @@
       },
       "recommendations": {
         "enabled": true,
-        "title": "Because you watched",
+        "title": "🎯 Because you watched",
         "titleFontSize": 16,
         "titleFontWeight": "extraBold",
         "titleColor": "white",
@@ -365,7 +365,7 @@
     },
     "history": {
       "enabled": true,
-      "maxItems": 10,
+      "maxItems": 20,
       "clearOnExit": false,
       "clearButtonText": "Clear All History"
     },
@@ -540,7 +540,7 @@
       "maxRatingText": "/10",
       "maxRatingColor": "textMuted",
       "imdbButton": {
-        "enabled": false,
+        "enabled": true,
         "icon": "OpenInNew",
         "iconTint": "white",
         "iconSize": 20,
@@ -567,7 +567,7 @@
       "showDescription": true,
       "descriptionMaxLines": 2,
       "showLeftTime": true,
-      "leftTimeColor": "white",
+      "leftTimeColor": "accent",
       "leftTimeSize": 10,
       "episodeCardHeight": 100,
       "episodeCardCornerRadius": 20,
@@ -613,10 +613,10 @@
       "playButtonBackground": "white",
       "playButtonTextColor": "black",
       "actions": [
-        { "id": "markWatched", "label": "Mark as Watched", "icon": "Check", "enabled": false },
+        { "id": "markWatched", "label": "Mark as Watched", "icon": "Check", "enabled": true },
         { "id": "smartPlaylist", "label": "Make Smart Playlist", "icon": "PlaylistPlay", "enabled": true },
-        { "id": "searchSubtitles", "label": "Search Subtitles", "icon": "ClosedCaption", "enabled": false },
-        { "id": "openBrowser", "label": "Open in Browser", "icon": "OpenInBrowser", "enabled": false },
+        { "id": "searchSubtitles", "label": "Search Subtitles", "icon": "ClosedCaption", "enabled": true },
+        { "id": "openBrowser", "label": "Open in Browser", "icon": "OpenInBrowser", "enabled": true },
         { "id": "copyUrl", "label": "Copy Video URL", "icon": "ContentCopy", "enabled": true },
         { "id": "download", "label": "Download Video", "icon": "Download", "enabled": true },
         { "id": "exportM3u", "label": "Export / Play .m3u", "icon": "FileDownload", "enabled": true }
@@ -705,7 +705,7 @@
       "enablePinchZoom": true,
       "holdToSpeed": {
         "enabled": true,
-        "defaultSpeed": 1.0,
+        "defaultSpeed": 2.0,
         "activationDelayMs": 300
       }
     },
@@ -791,7 +791,7 @@
       "segmentSize": 65536
     },
     "externalPlayer": {
-      "enabled": false,
+      "enabled": true,
       "forwardSubtitles": true,
       "sendSkipSegments": true,
       "defaultPlayerId": "android_system",
@@ -804,7 +804,7 @@
       ]
     },
     "sleepTimer": {
-      "enabled": false,
+      "enabled": true,
       "defaultMinutes": 30,
       "options": [5, 10, 15, 30, 45, 60, 90, 120]
     },
@@ -974,7 +974,7 @@
       { "id": "watched", "label": "WATCHED", "enabled": true },
       { "id": "progress", "label": "PROGRESS", "enabled": true },
       { "id": "library", "label": "LIBRARY", "enabled": true },
-      { "id": "watchlist", "label": "WATCHLIST", "enabled": false },
+      { "id": "watchlist", "label": "WATCHLIST", "enabled": true },
       { "id": "history", "label": "HISTORY", "enabled": true },
       { "id": "completion", "label": "COMPLETION", "enabled": true }
     ],
@@ -1050,7 +1050,7 @@
       "enabled": true
     },
     "deadLinkCache": {
-      "ttlDays": 1,
+      "ttlDays": 7,
       "enabled": true
     },
     "sonicCache": {
@@ -1150,7 +1150,7 @@
     "debrid": true,
     "skipIntroDetection": true,
     "sleepTimer": false,
-    "audioEqualizer": false,
+    "audioEqualizer": true,
     "pip": true,
     "torrentEngine": false
   }
