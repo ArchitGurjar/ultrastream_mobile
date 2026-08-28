@@ -1,9 +1,4 @@
 {
-  "_comment": "═══════════════════════════════════════════════════════════════════",
-  "_comment": "🔶 ULTRASTREAM – ULTIMATE MICRO‑DETAIL CONFIGURATION (v2.0) 🔶",
-  "_comment": "🔶 Every pixel, string, logic gate, and timeout is controlled here. 🔶",
-  "_comment": "═══════════════════════════════════════════════════════════════════",
-
   "version": 2,
   "configUrl": "https://raw.githubusercontent.com/your-org/ultrastream/main/config.json",
 
