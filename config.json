@@ -87,7 +87,7 @@
 
   "ui": {
     "_comment": "───────── GLOBAL USER INTERFACE APPEARANCE ─────────",
-    "accentColor": "#c9c9c9",
+    "accentColor": "#38BDF8",
     "secondaryColor": "#8B5CF6",
     "successColor": "#22C55E",
     "warningColor": "#FACC15",
@@ -420,7 +420,7 @@
         "emptyMessage": "Your saved items will appear here"
       },
       "watchlist": {
-        "enabled": true,
+        "enabled": false,
         "title": "Watchlist",
         "titleFontSize": 16,
         "titleFontWeight": "bold",
