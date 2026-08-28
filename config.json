@@ -294,7 +294,7 @@
       },
       "recommendations": {
         "enabled": true,
-        "title": "🎯 Because you watched",
+        "title": "Because you watched",
         "titleFontSize": 16,
         "titleFontWeight": "extraBold",
         "titleColor": "white",
@@ -307,7 +307,7 @@
       },
       "trending": {
         "enabled": true,
-        "title": "🔥 Trending Now",
+        "title": "Trending Now",
         "titleFontSize": 16,
         "titleFontWeight": "extraBold",
         "titleColor": "white",
@@ -791,7 +791,7 @@
       "segmentSize": 65536
     },
     "externalPlayer": {
-      "enabled": true,
+      "enabled": false,
       "forwardSubtitles": true,
       "sendSkipSegments": true,
       "defaultPlayerId": "android_system",
@@ -804,7 +804,7 @@
       ]
     },
     "sleepTimer": {
-      "enabled": true,
+      "enabled": false,
       "defaultMinutes": 30,
       "options": [5, 10, 15, 30, 45, 60, 90, 120]
     },
@@ -881,10 +881,10 @@
         "enabled": true
       },
       {
-        "id": "juan_carlos",
-        "name": "Juan Carlos 2",
-        "description": "4K sources",
-        "url": "https://juan-carlos.strem.fun/manifest.json",
+        "id": "MovieBox",
+        "name": "MovieBox",
+        "description": "stream sources",
+        "url": "https://stremio-moviebox-pdtq.onrender.com/manifest.json",
         "enabled": true
       },
       {
