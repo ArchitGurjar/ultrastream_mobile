@@ -87,7 +87,7 @@
 
   "ui": {
     "_comment": "───────── GLOBAL USER INTERFACE APPEARANCE ─────────",
-    "accentColor": "#38BDF8",
+    "accentColor": "#c9c9c9",
     "secondaryColor": "#8B5CF6",
     "successColor": "#22C55E",
     "warningColor": "#FACC15",
