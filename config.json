@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "configUrl": "https://raw.githubusercontent.com/your-org/ultrastream/main/config.json",
+  "configUrl": "https://raw.githubusercontent.com/ArchitGurjar/ultrastream_mobile/main/config.json",
 
   "app": {
     "_comment": "───────── APPLICATION CORE ─────────",
