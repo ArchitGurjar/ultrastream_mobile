@@ -889,7 +889,7 @@
       "bottomBarHeight": 120,
       "showAspectRatioButton": true,
       "aspectRatioIcon": "AspectRatio",
-      "showExternalPlayerButton": true,
+      "showExternalPlayerButton": false,
       "externalPlayerIcon": "OpenInNew",
       "showDecoderButton": true,
       "showFullscreenButton": true,
@@ -935,9 +935,9 @@
       "timeLabelSize": 12
     },
     "gestures": {
-      "enabled": true,
+      "enabled":true,
       "doubleTapSeekMs": 10000,
-      "verticalSwipeSensitivity": 1,
+      "verticalSwipeSensitivity": 2,
       "enablePinchZoom": false,
       "holdToSpeed": {
         "enabled": false,
@@ -1117,17 +1117,17 @@
         "enabled": true
       },
       {
-        "id": "MovieBox",
+        "id": "movieBox",
         "name": "MovieBox",
         "description": "stream sources",
         "url": "https://stremio-moviebox-pdtq.onrender.com/manifest.json",
         "enabled": true
       },
       {
-        "id": "orion",
-        "name": "Orion",
-        "description": "Premium scraper",
-        "url": "https://orion.strem.fun/manifest.json",
+        "id": "pingu",
+        "name": "Pingu",
+        "description": "stream scraper",
+        "url": "https://pengu.uk/%7B%22auth_token%22%3A%22E1Z5yR6u35EuHPYWmZvIgtucjiIuNcmKXAKh0ZcufoA%22%7D/manifest.json",
         "enabled": true
       }
     ],
