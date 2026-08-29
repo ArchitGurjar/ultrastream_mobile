@@ -17,12 +17,12 @@
     "defaultProfileId": "default",
     "maxProfiles": 5,
     "offlineModeEnabled": true,
-    "defaultTheme": "dark",
+    "defaultTheme": "deep",
     "supportedLanguages": [
       { "code": "en", "label": "English", "enabled": true },
-      { "code": "es", "label": "Español", "enabled": true },
-      { "code": "hi", "label": "हिंदी", "enabled": true },
-      { "code": "fr", "label": "Français", "enabled": false },
+      { "code": "es", "label": "Espanol", "enabled": true },
+      { "code": "hi", "label": "Hindi", "enabled": true },
+      { "code": "fr", "label": "Francais", "enabled": false },
       { "code": "de", "label": "Deutsch", "enabled": false }
     ],
     "minSdk": 24,
@@ -31,72 +31,254 @@
     "appBuildTimeField": "BUILD_TIME"
   },
 
-  "externalUrls": {
-    "_comment": "───────── ALL API ENDPOINTS & EXTERNAL LINKS ─────────",
-    "api": {
-      "introDbBase": "https://api.theintrodb.org/v1/",
-      "githubSkipBase": "https://shugi12345.github.io/stremio-skip-button/skip/",
-      "traktAuthBase": "https://trakt.tv/oauth/",
-      "simklAuthBase": "https://api.simkl.com/oauth/",
-      "tmdbImageBase": "https://image.tmdb.org/t/p/",
-      "realDebridApi": "https://api.real-debrid.com/rest/1.0/",
-      "allDebridApi": "https://api.alldebrid.com/v4/",
-      "premiumizeApi": "https://www.premiumize.me/api/",
-      "firebaseRemoteConfigUrl": "https://firebaseremoteconfig.googleapis.com/v1/projects/ultrastream-e7ddc/namespaces/firebase/",
-      "imdbBase": "https://www.imdb.com/title/"
+  "themes": {
+    "_comment": "───────── MODERN COLOR THEMES ─────────",
+    "light": {
+      "background": {
+        "primary": "#F8F9FA",
+        "surface": "#FFFFFF",
+        "elevated": "#FFFFFF",
+        "dim": "#E9ECEF"
+      },
+      "text": {
+        "primary": "#212529",
+        "secondary": "#495057",
+        "hint": "#6C757D",
+        "disabled": "#ADB5BD",
+        "inverse": "#FFFFFF"
+      },
+      "accent": {
+        "primary": "#6C63FF",
+        "secondary": "#03DAC6",
+        "tertiary": "#FF6584"
+      },
+      "status": {
+        "success": "#28A745",
+        "warning": "#FFC107",
+        "error": "#DC3545",
+        "info": "#17A2B8"
+      },
+      "navigation": {
+        "bar": "#FFFFFF",
+        "indicator": "#6C63FF",
+        "selectedIcon": "#6C63FF",
+        "unselectedIcon": "#ADB5BD",
+        "selectedLabel": "#212529",
+        "unselectedLabel": "#6C757D"
+      },
+      "card": {
+        "background": "#FFFFFF",
+        "elevation": 2,
+        "shadowColor": "rgba(0,0,0,0.08)"
+      },
+      "poster": {
+        "overlay": "rgba(0,0,0,0.35)",
+        "ratingBackground": "rgba(108,99,255,0.9)",
+        "titleColor": "#FFFFFF",
+        "yearColor": "rgba(255,255,255,0.8)"
+      }
     },
-    "legal": {
-      "privacyPolicyUrl": "https://ultrastream.app/privacy",
-      "termsOfServiceUrl": "https://ultrastream.app/terms",
-      "feedbackEmail": "support@ultrastream.app",
-      "licenseUrl": "https://ultrastream.app/license"
+    "mid": {
+      "background": {
+        "primary": "#1E1E1E",
+        "surface": "#2D2D2D",
+        "elevated": "#383838",
+        "dim": "#121212"
+      },
+      "text": {
+        "primary": "#E9ECEF",
+        "secondary": "#CED4DA",
+        "hint": "#ADB5BD",
+        "disabled": "#6C757D",
+        "inverse": "#212529"
+      },
+      "accent": {
+        "primary": "#7C3AED",
+        "secondary": "#14B8A6",
+        "tertiary": "#F472B6"
+      },
+      "status": {
+        "success": "#34D399",
+        "warning": "#FBBF24",
+        "error": "#F87171",
+        "info": "#60A5FA"
+      },
+      "navigation": {
+        "bar": "#1E1E1E",
+        "indicator": "#7C3AED",
+        "selectedIcon": "#7C3AED",
+        "unselectedIcon": "#6C757D",
+        "selectedLabel": "#E9ECEF",
+        "unselectedLabel": "#ADB5BD"
+      },
+      "card": {
+        "background": "#2D2D2D",
+        "elevation": 4,
+        "shadowColor": "rgba(0,0,0,0.3)"
+      },
+      "poster": {
+        "overlay": "rgba(0,0,0,0.5)",
+        "ratingBackground": "rgba(124,58,237,0.9)",
+        "titleColor": "#FFFFFF",
+        "yearColor": "rgba(255,255,255,0.75)"
+      }
     },
-    "defaultAddons": {
-      "cinemeta": "https://v3-cinemeta.strem.io/manifest.json",
-      "hdhub": "https://hdhub.thevolecitor.qzz.io/eyJ0b3Jib3giOiJ1bnNldCIsInF1YWxpdGllcyI6IjIxNjBwLDEwODBwLDcyMHAiLCJzb3J0IjoiZGVzYyJ9/manifest.json",
-      "opensubtitles": "https://opensubtitles-v3.strem.io/manifest.json",
-      "local": "https://local.strem.io/manifest.json"
+    "deep": {
+      "background": {
+        "primary": "#121212",
+        "surface": "#1E1E1E",
+        "elevated": "#2C2C2C",
+        "dim": "#0A0A0A"
+      },
+      "text": {
+        "primary": "#F1F3F5",
+        "secondary": "#DEE2E6",
+        "hint": "#ADB5BD",
+        "disabled": "#6C757D",
+        "inverse": "#212529"
+      },
+      "accent": {
+        "primary": "#8B5CF6",
+        "secondary": "#06D6A0",
+        "tertiary": "#FF6B6B"
+      },
+      "status": {
+        "success": "#22C55E",
+        "warning": "#FACC15",
+        "error": "#EF4444",
+        "info": "#3B82F6"
+      },
+      "navigation": {
+        "bar": "#121212",
+        "indicator": "#8B5CF6",
+        "selectedIcon": "#8B5CF6",
+        "unselectedIcon": "#6C757D",
+        "selectedLabel": "#F1F3F5",
+        "unselectedLabel": "#ADB5BD"
+      },
+      "card": {
+        "background": "#1E1E1E",
+        "elevation": 6,
+        "shadowColor": "rgba(0,0,0,0.5)"
+      },
+      "poster": {
+        "overlay": "rgba(0,0,0,0.55)",
+        "ratingBackground": "rgba(139,92,246,0.9)",
+        "titleColor": "#FFFFFF",
+        "yearColor": "rgba(255,255,255,0.7)"
+      }
+    },
+    "oled": {
+      "background": {
+        "primary": "#000000",
+        "surface": "#0D0D0D",
+        "elevated": "#1A1A1A",
+        "dim": "#000000"
+      },
+      "text": {
+        "primary": "#F8F9FA",
+        "secondary": "#E9ECEF",
+        "hint": "#CED4DA",
+        "disabled": "#6C757D",
+        "inverse": "#212529"
+      },
+      "accent": {
+        "primary": "#BB86FC",
+        "secondary": "#03DAC6",
+        "tertiary": "#CF6679"
+      },
+      "status": {
+        "success": "#4CAF50",
+        "warning": "#FFB74D",
+        "error": "#EF5350",
+        "info": "#42A5F5"
+      },
+      "navigation": {
+        "bar": "#000000",
+        "indicator": "#BB86FC",
+        "selectedIcon": "#BB86FC",
+        "unselectedIcon": "#6C757D",
+        "selectedLabel": "#F8F9FA",
+        "unselectedLabel": "#ADB5BD"
+      },
+      "card": {
+        "background": "#0D0D0D",
+        "elevation": 8,
+        "shadowColor": "rgba(255,255,255,0.05)"
+      },
+      "poster": {
+        "overlay": "rgba(0,0,0,0.6)",
+        "ratingBackground": "rgba(187,134,252,0.9)",
+        "titleColor": "#FFFFFF",
+        "yearColor": "rgba(255,255,255,0.7)"
+      }
+    },
+    "user": {
+      "_comment": "User-defined theme; defaults to deep for fallback",
+      "background": {
+        "primary": "#121212",
+        "surface": "#1E1E1E",
+        "elevated": "#2C2C2C",
+        "dim": "#0A0A0A"
+      },
+      "text": {
+        "primary": "#F1F3F5",
+        "secondary": "#DEE2E6",
+        "hint": "#ADB5BD",
+        "disabled": "#6C757D",
+        "inverse": "#212529"
+      },
+      "accent": {
+        "primary": "#8B5CF6",
+        "secondary": "#06D6A0",
+        "tertiary": "#FF6B6B"
+      },
+      "status": {
+        "success": "#22C55E",
+        "warning": "#FACC15",
+        "error": "#EF4444",
+        "info": "#3B82F6"
+      },
+      "navigation": {
+        "bar": "#121212",
+        "indicator": "#8B5CF6",
+        "selectedIcon": "#8B5CF6",
+        "unselectedIcon": "#6C757D",
+        "selectedLabel": "#F1F3F5",
+        "unselectedLabel": "#ADB5BD"
+      },
+      "card": {
+        "background": "#1E1E1E",
+        "elevation": 6,
+        "shadowColor": "rgba(0,0,0,0.5)"
+      },
+      "poster": {
+        "overlay": "rgba(0,0,0,0.55)",
+        "ratingBackground": "rgba(139,92,246,0.9)",
+        "titleColor": "#FFFFFF",
+        "yearColor": "rgba(255,255,255,0.7)"
+      }
     }
   },
 
-  "permissions": {
-    "_comment": "───────── ANDROID PERMISSIONS FLAGS ─────────",
-    "internet": true,
-    "recordAudio": false,
-    "foregroundService": true,
-    "foregroundServiceMediaPlayback": true,
-    "wakeLock": true,
-    "postNotifications": true,
-    "accessNetworkState": true,
-    "changeNetworkState": false,
-    "writeExternalStorage": false,
-    "readExternalStorage": false,
-    "readMediaVideo": true,
-    "readMediaAudio": false,
-    "readMediaImages": false,
-    "downloadWithoutNotification": true,
-    "vibrate": true,
-    "useBiometric": true,
-    "receiveBootCompleted": false,
-    "scheduleExactAlarm": false,
-    "requestInstallPackages": false,
-    "manageExternalStorage": false,
-    "queryAllPackages": false,
-    "adId": true
-  },
-
   "ui": {
-    "_comment": "───────── GLOBAL USER INTERFACE APPEARANCE ─────────",
-    "accentColor": "#ffffff",
-    "secondaryColor": "#8B5CF6",
+    "_comment": "───────── GLOBAL UI – DEFAULT THEME (DEEP) ─────────",
+    "accentColor": "#8B5CF6",
+    "secondaryColor": "#06D6A0",
     "successColor": "#22C55E",
     "warningColor": "#FACC15",
     "errorColor": "#EF4444",
     "backgroundColors": {
-      "dark": "#060606",
-      "light": "#FAFAFA",
-      "darkSurface": "#121212",
-      "lightSurface": "#F3F4F6"
+      "dark": "#121212",
+      "light": "#F8F9FA",
+      "darkSurface": "#1E1E1E",
+      "lightSurface": "#FFFFFF"
+    },
+    "textColors": {
+      "primary": "#F1F3F5",
+      "secondary": "#DEE2E6",
+      "hint": "#ADB5BD",
+      "disabled": "#6C757D"
     },
     "cornerRadii": {
       "small": 8,
@@ -107,33 +289,33 @@
       "pill": 50
     },
     "elevation": {
-      "card": 4,
-      "dialog": 8,
-      "bottomSheet": 12,
-      "floatingButton": 6
+      "card": 6,
+      "dialog": 12,
+      "bottomSheet": 16,
+      "floatingButton": 8
     },
     "glassmorphism": {
       "enabled": true,
-      "blurRadius": 16,
-      "saturation": 1.2,
-      "borderOpacity": 0.2,
-      "backgroundOpacity": 0.08,
+      "blurRadius": 20,
+      "saturation": 1.1,
+      "borderOpacity": 0.15,
+      "backgroundOpacity": 0.1,
       "borderWidth": 0.5
     },
     "typography": {
       "fontFamily": "system",
-      "headlineLarge": { "size": 24, "weight": "black", "lineHeight": 32 },
-      "headlineMedium": { "size": 20, "weight": "bold", "lineHeight": 28 },
-      "headlineSmall": { "size": 18, "weight": "bold", "lineHeight": 24 },
-      "titleLarge": { "size": 16, "weight": "bold", "lineHeight": 24 },
-      "titleMedium": { "size": 14, "weight": "semiBold", "lineHeight": 20 },
-      "titleSmall": { "size": 12, "weight": "semiBold", "lineHeight": 16 },
-      "bodyLarge": { "size": 16, "weight": "normal", "lineHeight": 24 },
-      "bodyMedium": { "size": 14, "weight": "normal", "lineHeight": 20 },
-      "bodySmall": { "size": 12, "weight": "normal", "lineHeight": 16 },
-      "labelLarge": { "size": 14, "weight": "semiBold", "lineHeight": 20 },
-      "labelMedium": { "size": 12, "weight": "medium", "lineHeight": 16 },
-      "labelSmall": { "size": 10, "weight": "medium", "lineHeight": 14 }
+      "headlineLarge": { "size": 24, "weight": "black", "lineHeight": 32, "color": "#F1F3F5" },
+      "headlineMedium": { "size": 20, "weight": "bold", "lineHeight": 28, "color": "#F1F3F5" },
+      "headlineSmall": { "size": 18, "weight": "bold", "lineHeight": 24, "color": "#F1F3F5" },
+      "titleLarge": { "size": 16, "weight": "bold", "lineHeight": 24, "color": "#F1F3F5" },
+      "titleMedium": { "size": 14, "weight": "semiBold", "lineHeight": 20, "color": "#DEE2E6" },
+      "titleSmall": { "size": 12, "weight": "semiBold", "lineHeight": 16, "color": "#ADB5BD" },
+      "bodyLarge": { "size": 16, "weight": "normal", "lineHeight": 24, "color": "#DEE2E6" },
+      "bodyMedium": { "size": 14, "weight": "normal", "lineHeight": 20, "color": "#DEE2E6" },
+      "bodySmall": { "size": 12, "weight": "normal", "lineHeight": 16, "color": "#ADB5BD" },
+      "labelLarge": { "size": 14, "weight": "semiBold", "lineHeight": 20, "color": "#F1F3F5" },
+      "labelMedium": { "size": 12, "weight": "medium", "lineHeight": 16, "color": "#DEE2E6" },
+      "labelSmall": { "size": 10, "weight": "medium", "lineHeight": 14, "color": "#ADB5BD" }
     },
     "spacing": {
       "micro": 2,
@@ -147,10 +329,10 @@
     },
     "shimmer": {
       "enabled": true,
-      "color1": "rgba(255,255,255,0.05)",
-      "color2": "rgba(255,255,255,0.12)",
-      "color3": "rgba(255,255,255,0.05)",
-      "durationMs": 1200,
+      "color1": "rgba(255,255,255,0.04)",
+      "color2": "rgba(255,255,255,0.10)",
+      "color3": "rgba(255,255,255,0.04)",
+      "durationMs": 1400,
       "repeatMode": "restart"
     },
     "animations": {
@@ -176,32 +358,32 @@
     },
     "toast": {
       "durationMs": 3000,
-      "backgroundColor": "#FFFFFF",
-      "textColor": "#000000",
+      "backgroundColor": "#1E1E1E",
+      "textColor": "#F1F3F5",
       "cornerRadius": 20,
-      "elevation": 6
+      "elevation": 8
     },
     "emptyStates": {
       "iconSize": 48,
-      "titleColor": "#FFFFFF",
-      "subtitleColor": "rgba(255,255,255,0.6)"
+      "titleColor": "#F1F3F5",
+      "subtitleColor": "#ADB5BD"
     }
   },
 
   "navigation": {
-    "_comment": "───────── BOTTOM NAVIGATION BAR (MICRO DETAIL) ─────────",
+    "_comment": "───────── BOTTOM NAVIGATION BAR ─────────",
     "enabled": true,
-    "style": "floating",
+    "style": "fixed",
     "height": 72,
-    "horizontalPadding": 24,
-    "verticalPadding": 16,
-    "cornerRadius": 32,
-    "backgroundColor": "surface",
-    "selectedIconTint": "white",
-    "unselectedIconTint": "rgba(255,255,255,0.6)",
-    "selectedLabelColor": "white",
-    "unselectedLabelColor": "rgba(255,255,255,0.6)",
-    "indicatorColor": "rgba(255,255,255,0.8)",
+    "horizontalPadding": 0,
+    "verticalPadding": 8,
+    "cornerRadius": 0,
+    "backgroundColor": "#121212",
+    "selectedIconTint": "#8B5CF6",
+    "unselectedIconTint": "#6C757D",
+    "selectedLabelColor": "#F1F3F5",
+    "unselectedLabelColor": "#ADB5BD",
+    "indicatorColor": "#8B5CF6",
     "indicatorStyle": "circle",
     "indicatorPadding": 10,
     "iconSize": 24,
@@ -218,31 +400,31 @@
   },
 
   "home": {
-    "_comment": "───────── HOME SCREEN – SECTION BY SECTION ─────────",
+    "_comment": "───────── HOME SCREEN ─────────",
     "enabled": true,
     "topBar": {
       "showLogo": true,
       "logoIcon": "Bolt",
       "logoSize": 28,
-      "logoColor": "white",
+      "logoColor": "#8B5CF6",
       "appName": "UltraStream",
       "appNameFontSize": 22,
       "appNameFontWeight": "black",
-      "appNameColor": "white",
+      "appNameColor": "#F1F3F5",
       "showRefreshButton": true,
       "refreshIcon": "Refresh",
-      "refreshIconTint": "rgba(255,255,255,0.7)",
+      "refreshIconTint": "#ADB5BD",
       "showNotificationsButton": true,
       "notificationsIcon": "Notifications",
-      "notificationsIconTint": "rgba(255,255,255,0.7)",
+      "notificationsIconTint": "#ADB5BD",
       "showAnalyticsButton": true,
       "analyticsIcon": "BarChart",
-      "analyticsIconTint": "rgba(255,255,255,0.7)",
+      "analyticsIconTint": "#ADB5BD",
       "showAvatar": false,
       "avatarSize": 32,
       "avatarText": "U",
-      "avatarTextColor": "black",
-      "avatarBackgroundColor": "white",
+      "avatarTextColor": "#121212",
+      "avatarBackgroundColor": "#8B5CF6",
       "topBarHeight": 56,
       "horizontalPadding": 24,
       "verticalPadding": 16
@@ -256,20 +438,20 @@
       "source": "trending",
       "maxItems": 5,
       "buttonText": "View Details",
-      "buttonWidthFraction": 0.7,
+      "buttonWidthFraction": 0.5,
       "buttonCornerRadius": 50,
-      "buttonBackgroundColor": "white",
-      "buttonTextColor": "black",
+      "buttonBackgroundColor": "#8B5CF6",
+      "buttonTextColor": "#FFFFFF",
       "buttonFontWeight": "bold",
-      "buttonFontSize": 18,
+      "buttonFontSize": 16,
       "showIndicators": true,
       "indicatorSize": 8,
-      "indicatorSpacing": 4,
-      "indicatorActiveColor": "white",
-      "indicatorInactiveColor": "rgba(255,255,255,0.5)",
-      "gradientTopColor": "rgba(0,0,0,0.4)",
-      "gradientBottomColor": "rgba(0,0,0,0.7)",
-      "gradientBgColor": "background"
+      "indicatorSpacing": 6,
+      "indicatorActiveColor": "#8B5CF6",
+      "indicatorInactiveColor": "rgba(255,255,255,0.3)",
+      "gradientTopColor": "rgba(0,0,0,0.05)",
+      "gradientBottomColor": "#121212",
+      "gradientBgColor": "#0A0A0A"
     },
     "sections": {
       "continueWatching": {
@@ -277,19 +459,19 @@
         "title": "Continue Watching",
         "titleFontSize": 16,
         "titleFontWeight": "extraBold",
-        "titleColor": "white",
+        "titleColor": "#F1F3F5",
         "maxItems": 10,
         "cardWidth": 280,
         "cardHeight": 157,
         "cardCornerRadius": 12,
         "showProgressBar": true,
         "progressBarHeight": 4,
-        "progressBarColor": "primary",
+        "progressBarColor": "#8B5CF6",
         "showTimeLeft": true,
         "showPlayIcon": true,
         "playIconSize": 48,
         "playIconBackground": "rgba(0,0,0,0.6)",
-        "gradientOverlay": "rgba(0,0,0,0.8)",
+        "gradientOverlay": "rgba(0,0,0,0.6)",
         "emptyMessage": "Start watching to see history"
       },
       "recommendations": {
@@ -297,7 +479,7 @@
         "title": "Because you watched",
         "titleFontSize": 16,
         "titleFontWeight": "extraBold",
-        "titleColor": "white",
+        "titleColor": "#F1F3F5",
         "maxItems": 15,
         "posterWidth": 115,
         "posterHeight": 173,
@@ -310,7 +492,7 @@
         "title": "Trending Now",
         "titleFontSize": 16,
         "titleFontWeight": "extraBold",
-        "titleColor": "white",
+        "titleColor": "#F1F3F5",
         "maxItems": 15,
         "posterWidth": 115,
         "posterHeight": 173,
@@ -324,24 +506,24 @@
         "itemsPerRow": 20,
         "showSeeAll": true,
         "seeAllText": "See All",
-        "seeAllTextColor": "primary",
+        "seeAllTextColor": "#ADB5BD",
         "seeAllFontWeight": "bold",
         "posterWidth": 115,
         "posterHeight": 173,
         "showProgress": true,
         "rowTitleFontSize": 16,
         "rowTitleFontWeight": "extraBold",
-        "rowTitleColor": "white",
+        "rowTitleColor": "#F1F3F5",
         "emptyMessage": "No content available"
       }
     },
     "refreshIntervalMinutes": 60,
-    "offlineBannerColor": "#FFD700",
-    "offlineBannerTextColor": "black"
+    "offlineBannerColor": "#FACC15",
+    "offlineBannerTextColor": "#121212"
   },
 
   "search": {
-    "_comment": "───────── SEARCH SCREEN (MICRO DETAIL) ─────────",
+    "_comment": "───────── SEARCH SCREEN ─────────",
     "enabled": true,
     "voiceSearchEnabled": true,
     "debounceMs": 600,
@@ -373,18 +555,18 @@
     "inputField": {
       "height": 56,
       "cornerRadius": 16,
-      "focusedBorderColor": "primary",
-      "unfocusedBorderColor": "rgba(255,255,255,0.2)",
+      "focusedBorderColor": "#8B5CF6",
+      "unfocusedBorderColor": "rgba(255,255,255,0.15)",
       "labelText": "Search movies, series, anime, TV...",
-      "labelColor": "rgba(255,255,255,0.7)"
+      "labelColor": "#ADB5BD"
     },
     "chipGroup": {
       "chipHeight": 32,
       "chipCornerRadius": 16,
-      "selectedContainerColor": "primary",
-      "selectedLabelColor": "onPrimary",
-      "unselectedContainerColor": "surface",
-      "unselectedLabelColor": "onSurface"
+      "selectedContainerColor": "#8B5CF6",
+      "selectedLabelColor": "#FFFFFF",
+      "unselectedContainerColor": "#1E1E1E",
+      "unselectedLabelColor": "#DEE2E6"
     },
     "emptyMessage": "No results found for \"{query}\""
   },
@@ -393,21 +575,23 @@
     "_comment": "───────── LIBRARY SCREEN ─────────",
     "enabled": true,
     "pullToRefresh": true,
-    "refreshIndicatorColor": "primary",
-    "refreshBackgroundColor": "surface",
+    "refreshIndicatorColor": "#8B5CF6",
+    "refreshBackgroundColor": "#121212",
     "sections": {
       "smartPlaylists": {
         "enabled": true,
         "title": "Smart Playlists",
         "titleFontSize": 16,
         "titleFontWeight": "bold",
+        "titleColor": "#F1F3F5",
         "cardWidth": 320,
         "cardHeight": 170,
         "cardCornerRadius": 24,
+        "cardBackground": "#1E1E1E",
         "showExport": true,
         "showPlayAll": true,
         "showDelete": true,
-        "statusBadgeColors": { "ready": "#22C55E", "partial": "#FACC15", "queued": "#38BDF8" },
+        "statusBadgeColors": { "ready": "#22C55E", "partial": "#FACC15", "queued": "#3B82F6" },
         "emptyMessage": "No smart playlists created"
       },
       "library": {
@@ -415,6 +599,7 @@
         "title": "Library",
         "titleFontSize": 16,
         "titleFontWeight": "bold",
+        "titleColor": "#F1F3F5",
         "gridColumns": 3,
         "showPosters": true,
         "emptyMessage": "Your saved items will appear here"
@@ -424,6 +609,7 @@
         "title": "Watchlist",
         "titleFontSize": 16,
         "titleFontWeight": "bold",
+        "titleColor": "#F1F3F5",
         "gridColumns": 3,
         "showPosters": true,
         "emptyMessage": "Add items to your watchlist to track them"
@@ -433,6 +619,7 @@
         "title": "History",
         "titleFontSize": 16,
         "titleFontWeight": "bold",
+        "titleColor": "#F1F3F5",
         "gridColumns": 3,
         "showPosters": true,
         "emptyMessage": "Your viewing history is currently empty"
@@ -441,44 +628,44 @@
   },
 
   "details": {
-    "_comment": "───────── DETAILS SCREEN (MICRO DETAIL) ─────────",
+    "_comment": "───────── DETAILS SCREEN ─────────",
     "enabled": true,
     "backdrop": {
       "enabled": true,
       "height": 350,
       "imageQuality": "BACKDROP_LARGE",
       "gradientStartAlpha": 0.0,
-      "gradientEndAlpha": 0.8,
-      "gradientEndColor": "background"
+      "gradientEndAlpha": 1.0,
+      "gradientEndColor": "#121212"
     },
     "topBar": {
       "backIcon": "ArrowBack",
-      "backIconTint": "white",
+      "backIconTint": "#F1F3F5",
       "backButtonSize": 44,
       "watchlistIcon": "Favorite",
       "watchlistIconOutline": "FavoriteBorder",
-      "watchlistIconTint": "white",
-      "watchlistIconSelectedTint": "white",
+      "watchlistIconTint": "#F1F3F5",
+      "watchlistIconSelectedTint": "#EF4444",
       "libraryIcon": "Bookmark",
       "libraryIconOutline": "BookmarkBorder",
-      "libraryIconTint": "white",
-      "libraryIconSelectedTint": "white",
-      "buttonBackground": "transparent",
+      "libraryIconTint": "#F1F3F5",
+      "libraryIconSelectedTint": "#8B5CF6",
+      "buttonBackground": "rgba(0,0,0,0.4)",
       "buttonCornerRadius": 50,
       "buttonSize": 44
     },
     "metadata": {
       "typeBadgeCornerRadius": 50,
-      "typeBadgeBackground": "transparent",
-      "typeBadgeTextColor": "white",
+      "typeBadgeBackground": "rgba(139,92,246,0.2)",
+      "typeBadgeTextColor": "#8B5CF6",
       "typeBadgeTextSize": 10,
       "typeBadgeFontWeight": "bold",
       "titleFontSize": 28,
       "titleFontWeight": "extraBold",
-      "titleColor": "white",
-      "yearColor": "white",
-      "runtimeColor": "white",
-      "ratingColor": "white",
+      "titleColor": "#F1F3F5",
+      "yearColor": "rgba(255,255,255,0.7)",
+      "runtimeColor": "rgba(255,255,255,0.7)",
+      "ratingColor": "#FACC15",
       "ratingFontWeight": "bold"
     },
     "description": {
@@ -486,16 +673,16 @@
       "maxLines": 4,
       "readMoreText": "Read more",
       "readLessText": "Read less",
-      "textColor": "textMuted",
+      "textColor": "#ADB5BD",
       "textSize": 14
     },
     "cast": {
       "enabled": true,
       "maxItems": 8,
       "chipCornerRadius": 20,
-      "chipBorderColor": "rgba(255,255,255,0.2)",
-      "chipBackground": "transparent",
-      "chipTextColor": "white",
+      "chipBorderColor": "rgba(255,255,255,0.1)",
+      "chipBackground": "rgba(255,255,255,0.05)",
+      "chipTextColor": "#DEE2E6",
       "chipTextSize": 12,
       "chipTextWeight": "medium",
       "clickable": true
@@ -505,24 +692,24 @@
         "enabled": true,
         "height": 48,
         "cornerRadius": 12,
-        "backgroundColor": "white",
-        "textColor": "black",
+        "backgroundColor": "#8B5CF6",
+        "textColor": "#FFFFFF",
         "textWeight": "bold",
         "icon": "PlayArrow",
-        "iconTint": "black",
+        "iconTint": "#FFFFFF",
         "iconSize": 20
       },
       "findStreamsButton": {
         "enabled": true,
         "height": 48,
         "cornerRadius": 12,
-        "backgroundColor": "rgba(255,255,255,0.1)",
-        "textColor": "white",
+        "backgroundColor": "rgba(255,255,255,0.08)",
+        "textColor": "#F1F3F5",
         "textWeight": "bold",
         "icon": "Satellite",
-        "iconTint": "white",
+        "iconTint": "#F1F3F5",
         "iconSize": 20,
-        "borderColor": "rgba(255,255,255,0.3)",
+        "borderColor": "rgba(255,255,255,0.15)",
         "borderWidth": 1,
         "loadingText": "Scanning for streams..."
       }
@@ -530,19 +717,19 @@
     "ratingCard": {
       "enabled": false,
       "cornerRadius": 20,
-      "backgroundColor": "transparent",
+      "backgroundColor": "rgba(255,255,255,0.05)",
       "ratingIcon": "Star",
-      "ratingIconTint": "AccentGold",
+      "ratingIconTint": "#FACC15",
       "ratingIconSize": 20,
-      "ratingValueColor": "white",
+      "ratingValueColor": "#F1F3F5",
       "ratingValueSize": 20,
       "ratingValueWeight": "black",
       "maxRatingText": "/10",
-      "maxRatingColor": "textMuted",
+      "maxRatingColor": "#ADB5BD",
       "imdbButton": {
         "enabled": true,
         "icon": "OpenInNew",
-        "iconTint": "white",
+        "iconTint": "#F1F3F5",
         "iconSize": 20,
         "buttonSize": 48,
         "background": "rgba(255,255,255,0.05)"
@@ -550,7 +737,7 @@
       "trailerButton": {
         "enabled": false,
         "icon": "PlayCircle",
-        "iconTint": "AccentRed",
+        "iconTint": "#EF4444",
         "iconSize": 24,
         "buttonSize": 48,
         "background": "rgba(255,255,255,0.05)"
@@ -558,20 +745,20 @@
     },
     "episodeList": {
       "showWatchedStatus": true,
-      "watchedTextColor": "white",
+      "watchedTextColor": "#22C55E",
       "watchedTextSize": 10,
       "watchedTextWeight": "black",
       "showProgress": true,
       "progressBarHeight": 3,
-      "progressBarColor": "white",
+      "progressBarColor": "#8B5CF6",
       "showDescription": true,
       "descriptionMaxLines": 2,
       "showLeftTime": true,
-      "leftTimeColor": "accent",
+      "leftTimeColor": "#ADB5BD",
       "leftTimeSize": 10,
       "episodeCardHeight": 100,
       "episodeCardCornerRadius": 20,
-      "episodeCardBackground": "surface",
+      "episodeCardBackground": "#1E1E1E",
       "thumbnailWidth": 150
     },
     "seasonSelector": {
@@ -579,10 +766,10 @@
       "style": "chips",
       "maxVisible": 5,
       "chipCornerRadius": 8,
-      "chipSelectedBackground": "primary",
-      "chipSelectedTextColor": "onPrimary",
-      "chipUnselectedBackground": "surface",
-      "chipUnselectedTextColor": "onSurface"
+      "chipSelectedBackground": "#8B5CF6",
+      "chipSelectedTextColor": "#FFFFFF",
+      "chipUnselectedBackground": "#1E1E1E",
+      "chipUnselectedTextColor": "#DEE2E6"
     },
     "streamsSheet": {
       "qualityFilters": [
@@ -596,12 +783,12 @@
       "defaultQualityFilter": "All",
       "showRefresh": true,
       "refreshIcon": "Refresh",
-      "refreshIconTint": "white",
+      "refreshIconTint": "#F1F3F5",
       "showRetry": true,
       "retryButtonText": "Retry",
       "maxStreamsToShow": 50,
       "sheetCornerRadius": 24,
-      "sheetBackground": "surface",
+      "sheetBackground": "#121212",
       "headerText": "Available Streams",
       "sourcesFoundText": "{count} sources found",
       "noStreamsText": "No streams available for this episode."
@@ -610,8 +797,8 @@
       "enabled": true,
       "headerText": "Stream Options",
       "playButtonText": "Play",
-      "playButtonBackground": "white",
-      "playButtonTextColor": "black",
+      "playButtonBackground": "#8B5CF6",
+      "playButtonTextColor": "#FFFFFF",
       "actions": [
         { "id": "markWatched", "label": "Mark as Watched", "icon": "Check", "enabled": true },
         { "id": "smartPlaylist", "label": "Make Smart Playlist", "icon": "PlaylistPlay", "enabled": true },
@@ -623,15 +810,15 @@
       ],
       "actionButtonHeight": 48,
       "actionButtonCornerRadius": 12,
-      "actionButtonBackground": "rgba(255,255,255,0.9)",
-      "actionButtonTextColor": "black",
+      "actionButtonBackground": "rgba(255,255,255,0.08)",
+      "actionButtonTextColor": "#F1F3F5",
       "actionButtonTextSize": 12,
       "actionButtonTextWeight": "bold"
     }
   },
 
   "player": {
-    "_comment": "───────── PLAYER – EXHAUSTIVE MICRO CONTROLS ─────────",
+    "_comment": "───────── PLAYER ─────────",
     "enabled": true,
     "defaultResizeMode": "fit",
     "resizeModes": [
@@ -641,16 +828,18 @@
     ],
     "controlsTimeoutMs": 5000,
     "showLoadingOverlay": true,
-    "loadingOverlayBackground": "rgba(0,0,0,0.4)",
+    "loadingOverlayBackground": "rgba(0,0,0,0.8)",
     "showParentalGuide": true,
     "uiElements": {
       "showTopBar": true,
       "topBarHeight": 56,
+      "topBarBackground": "rgba(0,0,0,0.5)",
       "showCenterControls": true,
       "centerPlayPauseSize": 80,
-      "centerPlayPauseBackground": "rgba(0,0,0,0.3)",
+      "centerPlayPauseBackground": "rgba(0,0,0,0.6)",
       "showBottomBar": true,
       "bottomBarHeight": 120,
+      "bottomBarBackground": "rgba(0,0,0,0.6)",
       "showAspectRatioButton": true,
       "aspectRatioIcon": "AspectRatio",
       "showExternalPlayerButton": true,
@@ -689,13 +878,13 @@
     "seekBar": {
       "height": 40,
       "trackHeight": 4,
-      "trackColor": "rgba(255,255,255,0.1)",
-      "bufferedColor": "rgba(255,255,255,0.3)",
-      "progressColor": "white",
+      "trackColor": "rgba(255,255,255,0.2)",
+      "bufferedColor": "rgba(255,255,255,0.4)",
+      "progressColor": "#8B5CF6",
       "thumbSize": 12,
-      "thumbColor": "white",
+      "thumbColor": "#8B5CF6",
       "showTimeLabels": true,
-      "timeLabelColor": "white",
+      "timeLabelColor": "#F1F3F5",
       "timeLabelSize": 12
     },
     "gestures": {
@@ -812,22 +1001,22 @@
       "enabled": true,
       "sources": ["github", "introdb", "addons"],
       "buttonText": "Skip Intro",
-      "buttonBackground": "white",
-      "buttonTextColor": "black",
+      "buttonBackground": "rgba(139,92,246,0.9)",
+      "buttonTextColor": "#FFFFFF",
       "buttonCornerRadius": 8,
       "buttonElevation": 8,
       "icon": "FastForward",
-      "iconTint": "black"
+      "iconTint": "#FFFFFF"
     },
     "skipOutro": {
       "enabled": true,
       "buttonText": "Next Episode",
-      "buttonBackground": "white",
-      "buttonTextColor": "black",
+      "buttonBackground": "rgba(139,92,246,0.9)",
+      "buttonTextColor": "#FFFFFF",
       "buttonCornerRadius": 8,
       "buttonElevation": 8,
       "icon": "SkipNext",
-      "iconTint": "black"
+      "iconTint": "#FFFFFF"
     },
     "nextEpisode": {
       "autoPlay": true,
@@ -854,7 +1043,7 @@
   },
 
   "addons": {
-    "_comment": "───────── ADDONS – FULL MANAGEMENT ─────────",
+    "_comment": "───────── ADDONS ─────────",
     "enabled": true,
     "showImportExport": true,
     "importButtonText": "Import JSON",
@@ -897,22 +1086,22 @@
     ],
     "defaultAddons": ["cinemeta", "opensubtitles"],
     "addonCard": {
-      "cornerRadius": 20,
+      "cornerRadius": 12,
       "padding": 16,
       "iconSize": 48,
       "nameTextSize": 14,
       "nameTextWeight": "bold",
-      "nameTextColor": "white",
+      "nameTextColor": "#F1F3F5",
       "versionTextSize": 10,
-      "versionTextColor": "primary",
+      "versionTextColor": "#ADB5BD",
       "descriptionTextSize": 12,
       "descriptionMaxLines": 2,
-      "enabledSwitchTint": "primary"
+      "enabledSwitchTint": "#8B5CF6"
     }
   },
 
   "debrid": {
-    "_comment": "───────── DEBRID – PROVIDERS & CREDENTIALS ─────────",
+    "_comment": "───────── DEBRID ─────────",
     "enabled": true,
     "providers": [
       { "id": "realdebrid", "label": "Real-Debrid", "enabled": true },
@@ -935,7 +1124,7 @@
   },
 
   "profile": {
-    "_comment": "───────── PROFILE & SETTINGS SCREEN ─────────",
+    "_comment": "───────── PROFILE & SETTINGS ─────────",
     "enabled": true,
     "parentalRatings": [
       { "id": "G", "label": "G - General Audiences", "level": 0, "enabled": true },
@@ -952,7 +1141,7 @@
       { "id": "parentalControl", "label": "Parental Lock", "enabled": true }
     ],
     "lightThemeColors": [
-      { "hex": "#FAFAFA", "label": "White", "enabled": true },
+      { "hex": "#F8F9FA", "label": "White", "enabled": true },
       { "hex": "#0F766E", "label": "SeaGreen", "enabled": true },
       { "hex": "#8B5CF6", "label": "Purple", "enabled": true }
     ],
@@ -986,7 +1175,7 @@
   },
 
   "poster": {
-    "_comment": "───────── POSTER CARD – PIXEL‑PERFECT CONTROL ─────────",
+    "_comment": "───────── POSTER CARD – MODERN DESIGN ─────────",
     "width": 115,
     "height": 173,
     "cornerRadius": 12,
@@ -994,31 +1183,32 @@
     "showIMDbRating": true,
     "ratingIcon": "Star",
     "ratingIconSize": 10,
-    "ratingIconTint": "AccentGold",
-    "ratingTextColor": "white",
+    "ratingIconTint": "#FACC15",
+    "ratingTextColor": "#FFFFFF",
     "ratingTextSize": 9,
     "ratingTextWeight": "black",
     "titleFontSize": 10,
     "titleFontWeight": "black",
-    "titleColor": "white",
+    "titleColor": "#FFFFFF",
     "titleMaxLines": 1,
     "yearFontSize": 9,
     "yearFontWeight": "bold",
-    "yearColor": "white",
+    "yearColor": "rgba(255,255,255,0.7)",
     "overlayStyle": "glass",
     "overlayCornerRadius": 8,
     "overlayPadding": 6,
     "overlayMargin": 4,
+    "overlayBackground": "rgba(0,0,0,0.4)",
     "progressBarHeight": 4,
-    "progressBarColor": "primary",
-    "progressBarTrackColor": "rgba(128,128,128,0.3)",
-    "emptyPosterColor": "#1A1A1A",
+    "progressBarColor": "#8B5CF6",
+    "progressBarTrackColor": "rgba(255,255,255,0.2)",
+    "emptyPosterColor": "#1E1E1E",
     "imageCacheKeyPrefix": "poster_",
     "defaultPosterUrl": ""
   },
 
   "cache": {
-    "_comment": "───────── CACHING – BYTES & TIMEOUTS ─────────",
+    "_comment": "───────── CACHING ─────────",
     "imageCache": {
       "enabled": true,
       "memoryCachePercent": 0.25,
@@ -1061,7 +1251,7 @@
   },
 
   "network": {
-    "_comment": "───────── NETWORK – SOCKETS & HEADERS ─────────",
+    "_comment": "───────── NETWORK ─────────",
     "preferIPv4": true,
     "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Mobile Safari/537.36",
     "connectTimeoutSeconds": 60,
