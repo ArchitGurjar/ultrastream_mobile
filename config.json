@@ -701,11 +701,11 @@
     "gestures": {
       "enabled": true,
       "doubleTapSeekMs": 10000,
-      "verticalSwipeSensitivity": 0.8,
-      "enablePinchZoom": true,
+      "verticalSwipeSensitivity": 1,
+      "enablePinchZoom": false,
       "holdToSpeed": {
         "enabled": false,
-        "defaultSpeed": 2.0,
+        "defaultSpeed": 1.0,
         "activationDelayMs": 300
       }
     },
