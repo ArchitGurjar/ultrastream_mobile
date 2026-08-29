@@ -32,39 +32,39 @@
   },
 
   "themes": {
-    "_comment": "───────── MODERN COLOR THEMES ─────────",
+    "_comment": "───────── APPLE TV-INSPIRED MODERN COLOR THEMES ─────────",
     "light": {
       "background": {
-        "primary": "#F8F9FA",
+        "primary": "#F2F2F7",
         "surface": "#FFFFFF",
         "elevated": "#FFFFFF",
-        "dim": "#E9ECEF"
+        "dim": "#E5E5EA"
       },
       "text": {
-        "primary": "#212529",
-        "secondary": "#495057",
-        "hint": "#6C757D",
-        "disabled": "#ADB5BD",
+        "primary": "#1C1C1E",
+        "secondary": "#3A3A3C",
+        "hint": "#8E8E93",
+        "disabled": "#AEAEB2",
         "inverse": "#FFFFFF"
       },
       "accent": {
-        "primary": "#6C63FF",
-        "secondary": "#03DAC6",
-        "tertiary": "#FF6584"
+        "primary": "#007AFF",
+        "secondary": "#34C759",
+        "tertiary": "#FF3B30"
       },
       "status": {
-        "success": "#28A745",
-        "warning": "#FFC107",
-        "error": "#DC3545",
-        "info": "#17A2B8"
+        "success": "#34C759",
+        "warning": "#FFCC00",
+        "error": "#FF3B30",
+        "info": "#5AC8FA"
       },
       "navigation": {
-        "bar": "#FFFFFF",
-        "indicator": "#6C63FF",
-        "selectedIcon": "#6C63FF",
-        "unselectedIcon": "#ADB5BD",
-        "selectedLabel": "#212529",
-        "unselectedLabel": "#6C757D"
+        "bar": "#F2F2F7",
+        "indicator": "#007AFF",
+        "selectedIcon": "#007AFF",
+        "unselectedIcon": "#8E8E93",
+        "selectedLabel": "#1C1C1E",
+        "unselectedLabel": "#8E8E93"
       },
       "card": {
         "background": "#FFFFFF",
@@ -73,97 +73,97 @@
       },
       "poster": {
         "overlay": "rgba(0,0,0,0.35)",
-        "ratingBackground": "rgba(108,99,255,0.9)",
+        "ratingBackground": "rgba(0,122,255,0.85)",
         "titleColor": "#FFFFFF",
         "yearColor": "rgba(255,255,255,0.8)"
       }
     },
     "mid": {
       "background": {
-        "primary": "#1E1E1E",
-        "surface": "#2D2D2D",
-        "elevated": "#383838",
-        "dim": "#121212"
+        "primary": "#1C1C1E",
+        "surface": "#2C2C2E",
+        "elevated": "#38383A",
+        "dim": "#0A0A0A"
       },
       "text": {
-        "primary": "#E9ECEF",
-        "secondary": "#CED4DA",
-        "hint": "#ADB5BD",
-        "disabled": "#6C757D",
-        "inverse": "#212529"
+        "primary": "#F2F2F7",
+        "secondary": "#D1D1D6",
+        "hint": "#8E8E93",
+        "disabled": "#636366",
+        "inverse": "#1C1C1E"
       },
       "accent": {
-        "primary": "#7C3AED",
-        "secondary": "#14B8A6",
-        "tertiary": "#F472B6"
+        "primary": "#007AFF",
+        "secondary": "#30D158",
+        "tertiary": "#FF453A"
       },
       "status": {
-        "success": "#34D399",
-        "warning": "#FBBF24",
-        "error": "#F87171",
-        "info": "#60A5FA"
+        "success": "#30D158",
+        "warning": "#FFD60A",
+        "error": "#FF453A",
+        "info": "#5AC8FA"
       },
       "navigation": {
-        "bar": "#1E1E1E",
-        "indicator": "#7C3AED",
-        "selectedIcon": "#7C3AED",
-        "unselectedIcon": "#6C757D",
-        "selectedLabel": "#E9ECEF",
-        "unselectedLabel": "#ADB5BD"
+        "bar": "#1C1C1E",
+        "indicator": "#007AFF",
+        "selectedIcon": "#007AFF",
+        "unselectedIcon": "#8E8E93",
+        "selectedLabel": "#F2F2F7",
+        "unselectedLabel": "#8E8E93"
       },
       "card": {
-        "background": "#2D2D2D",
+        "background": "#2C2C2E",
         "elevation": 4,
         "shadowColor": "rgba(0,0,0,0.3)"
       },
       "poster": {
         "overlay": "rgba(0,0,0,0.5)",
-        "ratingBackground": "rgba(124,58,237,0.9)",
+        "ratingBackground": "rgba(0,122,255,0.85)",
         "titleColor": "#FFFFFF",
         "yearColor": "rgba(255,255,255,0.75)"
       }
     },
     "deep": {
       "background": {
-        "primary": "#121212",
-        "surface": "#1E1E1E",
-        "elevated": "#2C2C2C",
-        "dim": "#0A0A0A"
+        "primary": "#0A0A0A",
+        "surface": "#1C1C1E",
+        "elevated": "#2C2C2E",
+        "dim": "#000000"
       },
       "text": {
-        "primary": "#F1F3F5",
-        "secondary": "#DEE2E6",
-        "hint": "#ADB5BD",
-        "disabled": "#6C757D",
-        "inverse": "#212529"
+        "primary": "#F2F2F7",
+        "secondary": "#D1D1D6",
+        "hint": "#8E8E93",
+        "disabled": "#636366",
+        "inverse": "#1C1C1E"
       },
       "accent": {
-        "primary": "#8B5CF6",
-        "secondary": "#06D6A0",
-        "tertiary": "#FF6B6B"
+        "primary": "#0A84FF",
+        "secondary": "#30D158",
+        "tertiary": "#FF453A"
       },
       "status": {
-        "success": "#22C55E",
-        "warning": "#FACC15",
-        "error": "#EF4444",
-        "info": "#3B82F6"
+        "success": "#30D158",
+        "warning": "#FFD60A",
+        "error": "#FF453A",
+        "info": "#5AC8FA"
       },
       "navigation": {
-        "bar": "#121212",
-        "indicator": "#8B5CF6",
-        "selectedIcon": "#8B5CF6",
-        "unselectedIcon": "#6C757D",
-        "selectedLabel": "#F1F3F5",
-        "unselectedLabel": "#ADB5BD"
+        "bar": "#0A0A0A",
+        "indicator": "#0A84FF",
+        "selectedIcon": "#0A84FF",
+        "unselectedIcon": "#8E8E93",
+        "selectedLabel": "#F2F2F7",
+        "unselectedLabel": "#8E8E93"
       },
       "card": {
-        "background": "#1E1E1E",
+        "background": "#1C1C1E",
         "elevation": 6,
         "shadowColor": "rgba(0,0,0,0.5)"
       },
       "poster": {
         "overlay": "rgba(0,0,0,0.55)",
-        "ratingBackground": "rgba(139,92,246,0.9)",
+        "ratingBackground": "rgba(10,132,255,0.85)",
         "titleColor": "#FFFFFF",
         "yearColor": "rgba(255,255,255,0.7)"
       }
@@ -171,90 +171,90 @@
     "oled": {
       "background": {
         "primary": "#000000",
-        "surface": "#0D0D0D",
-        "elevated": "#1A1A1A",
+        "surface": "#0A0A0A",
+        "elevated": "#1C1C1E",
         "dim": "#000000"
       },
       "text": {
-        "primary": "#F8F9FA",
-        "secondary": "#E9ECEF",
-        "hint": "#CED4DA",
-        "disabled": "#6C757D",
-        "inverse": "#212529"
+        "primary": "#F2F2F7",
+        "secondary": "#D1D1D6",
+        "hint": "#8E8E93",
+        "disabled": "#636366",
+        "inverse": "#1C1C1E"
       },
       "accent": {
-        "primary": "#BB86FC",
-        "secondary": "#03DAC6",
-        "tertiary": "#CF6679"
+        "primary": "#0A84FF",
+        "secondary": "#30D158",
+        "tertiary": "#FF453A"
       },
       "status": {
-        "success": "#4CAF50",
-        "warning": "#FFB74D",
-        "error": "#EF5350",
-        "info": "#42A5F5"
+        "success": "#30D158",
+        "warning": "#FFD60A",
+        "error": "#FF453A",
+        "info": "#5AC8FA"
       },
       "navigation": {
         "bar": "#000000",
-        "indicator": "#BB86FC",
-        "selectedIcon": "#BB86FC",
-        "unselectedIcon": "#6C757D",
-        "selectedLabel": "#F8F9FA",
-        "unselectedLabel": "#ADB5BD"
+        "indicator": "#0A84FF",
+        "selectedIcon": "#0A84FF",
+        "unselectedIcon": "#8E8E93",
+        "selectedLabel": "#F2F2F7",
+        "unselectedLabel": "#8E8E93"
       },
       "card": {
-        "background": "#0D0D0D",
+        "background": "#0A0A0A",
         "elevation": 8,
-        "shadowColor": "rgba(255,255,255,0.05)"
+        "shadowColor": "rgba(255,255,255,0.04)"
       },
       "poster": {
         "overlay": "rgba(0,0,0,0.6)",
-        "ratingBackground": "rgba(187,134,252,0.9)",
+        "ratingBackground": "rgba(10,132,255,0.85)",
         "titleColor": "#FFFFFF",
         "yearColor": "rgba(255,255,255,0.7)"
       }
     },
     "user": {
-      "_comment": "User-defined theme; defaults to deep for fallback",
+      "_comment": "User-defined theme; deep theme as base",
       "background": {
-        "primary": "#121212",
-        "surface": "#1E1E1E",
-        "elevated": "#2C2C2C",
-        "dim": "#0A0A0A"
+        "primary": "#0A0A0A",
+        "surface": "#1C1C1E",
+        "elevated": "#2C2C2E",
+        "dim": "#000000"
       },
       "text": {
-        "primary": "#F1F3F5",
-        "secondary": "#DEE2E6",
-        "hint": "#ADB5BD",
-        "disabled": "#6C757D",
-        "inverse": "#212529"
+        "primary": "#F2F2F7",
+        "secondary": "#D1D1D6",
+        "hint": "#8E8E93",
+        "disabled": "#636366",
+        "inverse": "#1C1C1E"
       },
       "accent": {
-        "primary": "#8B5CF6",
-        "secondary": "#06D6A0",
-        "tertiary": "#FF6B6B"
+        "primary": "#0A84FF",
+        "secondary": "#30D158",
+        "tertiary": "#FF453A"
       },
       "status": {
-        "success": "#22C55E",
-        "warning": "#FACC15",
-        "error": "#EF4444",
-        "info": "#3B82F6"
+        "success": "#30D158",
+        "warning": "#FFD60A",
+        "error": "#FF453A",
+        "info": "#5AC8FA"
       },
       "navigation": {
-        "bar": "#121212",
-        "indicator": "#8B5CF6",
-        "selectedIcon": "#8B5CF6",
-        "unselectedIcon": "#6C757D",
-        "selectedLabel": "#F1F3F5",
-        "unselectedLabel": "#ADB5BD"
+        "bar": "#0A0A0A",
+        "indicator": "#0A84FF",
+        "selectedIcon": "#0A84FF",
+        "unselectedIcon": "#8E8E93",
+        "selectedLabel": "#F2F2F7",
+        "unselectedLabel": "#8E8E93"
       },
       "card": {
-        "background": "#1E1E1E",
+        "background": "#1C1C1E",
         "elevation": 6,
         "shadowColor": "rgba(0,0,0,0.5)"
       },
       "poster": {
         "overlay": "rgba(0,0,0,0.55)",
-        "ratingBackground": "rgba(139,92,246,0.9)",
+        "ratingBackground": "rgba(10,132,255,0.85)",
         "titleColor": "#FFFFFF",
         "yearColor": "rgba(255,255,255,0.7)"
       }
@@ -263,22 +263,22 @@
 
   "ui": {
     "_comment": "───────── GLOBAL UI – DEFAULT THEME (DEEP) ─────────",
-    "accentColor": "#8B5CF6",
-    "secondaryColor": "#06D6A0",
-    "successColor": "#22C55E",
-    "warningColor": "#FACC15",
-    "errorColor": "#EF4444",
+    "accentColor": "#0A84FF",
+    "secondaryColor": "#30D158",
+    "successColor": "#30D158",
+    "warningColor": "#FFD60A",
+    "errorColor": "#FF453A",
     "backgroundColors": {
-      "dark": "#121212",
-      "light": "#F8F9FA",
-      "darkSurface": "#1E1E1E",
+      "dark": "#0A0A0A",
+      "light": "#F2F2F7",
+      "darkSurface": "#1C1C1E",
       "lightSurface": "#FFFFFF"
     },
     "textColors": {
-      "primary": "#F1F3F5",
-      "secondary": "#DEE2E6",
-      "hint": "#ADB5BD",
-      "disabled": "#6C757D"
+      "primary": "#F2F2F7",
+      "secondary": "#D1D1D6",
+      "hint": "#8E8E93",
+      "disabled": "#636366"
     },
     "cornerRadii": {
       "small": 8,
@@ -297,25 +297,25 @@
     "glassmorphism": {
       "enabled": true,
       "blurRadius": 20,
-      "saturation": 1.1,
+      "saturation": 1.2,
       "borderOpacity": 0.15,
-      "backgroundOpacity": 0.1,
+      "backgroundOpacity": 0.12,
       "borderWidth": 0.5
     },
     "typography": {
       "fontFamily": "system",
-      "headlineLarge": { "size": 24, "weight": "black", "lineHeight": 32, "color": "#F1F3F5" },
-      "headlineMedium": { "size": 20, "weight": "bold", "lineHeight": 28, "color": "#F1F3F5" },
-      "headlineSmall": { "size": 18, "weight": "bold", "lineHeight": 24, "color": "#F1F3F5" },
-      "titleLarge": { "size": 16, "weight": "bold", "lineHeight": 24, "color": "#F1F3F5" },
-      "titleMedium": { "size": 14, "weight": "semiBold", "lineHeight": 20, "color": "#DEE2E6" },
-      "titleSmall": { "size": 12, "weight": "semiBold", "lineHeight": 16, "color": "#ADB5BD" },
-      "bodyLarge": { "size": 16, "weight": "normal", "lineHeight": 24, "color": "#DEE2E6" },
-      "bodyMedium": { "size": 14, "weight": "normal", "lineHeight": 20, "color": "#DEE2E6" },
-      "bodySmall": { "size": 12, "weight": "normal", "lineHeight": 16, "color": "#ADB5BD" },
-      "labelLarge": { "size": 14, "weight": "semiBold", "lineHeight": 20, "color": "#F1F3F5" },
-      "labelMedium": { "size": 12, "weight": "medium", "lineHeight": 16, "color": "#DEE2E6" },
-      "labelSmall": { "size": 10, "weight": "medium", "lineHeight": 14, "color": "#ADB5BD" }
+      "headlineLarge": { "size": 24, "weight": "black", "lineHeight": 32, "color": "#F2F2F7" },
+      "headlineMedium": { "size": 20, "weight": "bold", "lineHeight": 28, "color": "#F2F2F7" },
+      "headlineSmall": { "size": 18, "weight": "bold", "lineHeight": 24, "color": "#F2F2F7" },
+      "titleLarge": { "size": 16, "weight": "bold", "lineHeight": 24, "color": "#F2F2F7" },
+      "titleMedium": { "size": 14, "weight": "semiBold", "lineHeight": 20, "color": "#D1D1D6" },
+      "titleSmall": { "size": 12, "weight": "semiBold", "lineHeight": 16, "color": "#8E8E93" },
+      "bodyLarge": { "size": 16, "weight": "normal", "lineHeight": 24, "color": "#D1D1D6" },
+      "bodyMedium": { "size": 14, "weight": "normal", "lineHeight": 20, "color": "#D1D1D6" },
+      "bodySmall": { "size": 12, "weight": "normal", "lineHeight": 16, "color": "#8E8E93" },
+      "labelLarge": { "size": 14, "weight": "semiBold", "lineHeight": 20, "color": "#F2F2F7" },
+      "labelMedium": { "size": 12, "weight": "medium", "lineHeight": 16, "color": "#D1D1D6" },
+      "labelSmall": { "size": 10, "weight": "medium", "lineHeight": 14, "color": "#8E8E93" }
     },
     "spacing": {
       "micro": 2,
@@ -358,32 +358,32 @@
     },
     "toast": {
       "durationMs": 3000,
-      "backgroundColor": "#1E1E1E",
-      "textColor": "#F1F3F5",
+      "backgroundColor": "#1C1C1E",
+      "textColor": "#F2F2F7",
       "cornerRadius": 20,
       "elevation": 8
     },
     "emptyStates": {
       "iconSize": 48,
-      "titleColor": "#F1F3F5",
-      "subtitleColor": "#ADB5BD"
+      "titleColor": "#F2F2F7",
+      "subtitleColor": "#8E8E93"
     }
   },
 
   "navigation": {
-    "_comment": "───────── BOTTOM NAVIGATION BAR ─────────",
+    "_comment": "───────── BOTTOM NAVIGATION BAR (UNCHANGED STRUCTURE, COLORS UPDATED) ─────────",
     "enabled": true,
     "style": "fixed",
     "height": 72,
     "horizontalPadding": 0,
     "verticalPadding": 8,
     "cornerRadius": 0,
-    "backgroundColor": "#121212",
-    "selectedIconTint": "#8B5CF6",
-    "unselectedIconTint": "#6C757D",
-    "selectedLabelColor": "#F1F3F5",
-    "unselectedLabelColor": "#ADB5BD",
-    "indicatorColor": "#8B5CF6",
+    "backgroundColor": "#0A0A0A",
+    "selectedIconTint": "#0A84FF",
+    "unselectedIconTint": "#8E8E93",
+    "selectedLabelColor": "#F2F2F7",
+    "unselectedLabelColor": "#8E8E93",
+    "indicatorColor": "#0A84FF",
     "indicatorStyle": "circle",
     "indicatorPadding": 10,
     "iconSize": 24,
@@ -400,31 +400,31 @@
   },
 
   "home": {
-    "_comment": "───────── HOME SCREEN ─────────",
+    "_comment": "───────── HOME SCREEN (APPLE TV STYLE) ─────────",
     "enabled": true,
     "topBar": {
       "showLogo": true,
       "logoIcon": "Bolt",
       "logoSize": 28,
-      "logoColor": "#8B5CF6",
+      "logoColor": "#0A84FF",
       "appName": "UltraStream",
       "appNameFontSize": 22,
       "appNameFontWeight": "black",
-      "appNameColor": "#F1F3F5",
+      "appNameColor": "#F2F2F7",
       "showRefreshButton": true,
       "refreshIcon": "Refresh",
-      "refreshIconTint": "#ADB5BD",
+      "refreshIconTint": "#8E8E93",
       "showNotificationsButton": true,
       "notificationsIcon": "Notifications",
-      "notificationsIconTint": "#ADB5BD",
+      "notificationsIconTint": "#8E8E93",
       "showAnalyticsButton": true,
       "analyticsIcon": "BarChart",
-      "analyticsIconTint": "#ADB5BD",
+      "analyticsIconTint": "#8E8E93",
       "showAvatar": false,
       "avatarSize": 32,
       "avatarText": "U",
-      "avatarTextColor": "#121212",
-      "avatarBackgroundColor": "#8B5CF6",
+      "avatarTextColor": "#0A0A0A",
+      "avatarBackgroundColor": "#0A84FF",
       "topBarHeight": 56,
       "horizontalPadding": 24,
       "verticalPadding": 16
@@ -440,18 +440,18 @@
       "buttonText": "View Details",
       "buttonWidthFraction": 0.5,
       "buttonCornerRadius": 50,
-      "buttonBackgroundColor": "#8B5CF6",
+      "buttonBackgroundColor": "#0A84FF",
       "buttonTextColor": "#FFFFFF",
       "buttonFontWeight": "bold",
       "buttonFontSize": 16,
       "showIndicators": true,
       "indicatorSize": 8,
       "indicatorSpacing": 6,
-      "indicatorActiveColor": "#8B5CF6",
+      "indicatorActiveColor": "#0A84FF",
       "indicatorInactiveColor": "rgba(255,255,255,0.3)",
       "gradientTopColor": "rgba(0,0,0,0.05)",
-      "gradientBottomColor": "#121212",
-      "gradientBgColor": "#0A0A0A"
+      "gradientBottomColor": "#0A0A0A",
+      "gradientBgColor": "#000000"
     },
     "sections": {
       "continueWatching": {
@@ -459,14 +459,14 @@
         "title": "Continue Watching",
         "titleFontSize": 16,
         "titleFontWeight": "extraBold",
-        "titleColor": "#F1F3F5",
+        "titleColor": "#F2F2F7",
         "maxItems": 10,
         "cardWidth": 280,
         "cardHeight": 157,
         "cardCornerRadius": 12,
         "showProgressBar": true,
         "progressBarHeight": 4,
-        "progressBarColor": "#8B5CF6",
+        "progressBarColor": "#0A84FF",
         "showTimeLeft": true,
         "showPlayIcon": true,
         "playIconSize": 48,
@@ -479,7 +479,7 @@
         "title": "Because you watched",
         "titleFontSize": 16,
         "titleFontWeight": "extraBold",
-        "titleColor": "#F1F3F5",
+        "titleColor": "#F2F2F7",
         "maxItems": 15,
         "posterWidth": 115,
         "posterHeight": 173,
@@ -492,7 +492,7 @@
         "title": "Trending Now",
         "titleFontSize": 16,
         "titleFontWeight": "extraBold",
-        "titleColor": "#F1F3F5",
+        "titleColor": "#F2F2F7",
         "maxItems": 15,
         "posterWidth": 115,
         "posterHeight": 173,
@@ -506,20 +506,20 @@
         "itemsPerRow": 20,
         "showSeeAll": true,
         "seeAllText": "See All",
-        "seeAllTextColor": "#ADB5BD",
+        "seeAllTextColor": "#8E8E93",
         "seeAllFontWeight": "bold",
         "posterWidth": 115,
         "posterHeight": 173,
         "showProgress": true,
         "rowTitleFontSize": 16,
         "rowTitleFontWeight": "extraBold",
-        "rowTitleColor": "#F1F3F5",
+        "rowTitleColor": "#F2F2F7",
         "emptyMessage": "No content available"
       }
     },
     "refreshIntervalMinutes": 60,
-    "offlineBannerColor": "#FACC15",
-    "offlineBannerTextColor": "#121212"
+    "offlineBannerColor": "#FFD60A",
+    "offlineBannerTextColor": "#0A0A0A"
   },
 
   "search": {
@@ -555,18 +555,18 @@
     "inputField": {
       "height": 56,
       "cornerRadius": 16,
-      "focusedBorderColor": "#8B5CF6",
+      "focusedBorderColor": "#0A84FF",
       "unfocusedBorderColor": "rgba(255,255,255,0.15)",
       "labelText": "Search movies, series, anime, TV...",
-      "labelColor": "#ADB5BD"
+      "labelColor": "#8E8E93"
     },
     "chipGroup": {
       "chipHeight": 32,
       "chipCornerRadius": 16,
-      "selectedContainerColor": "#8B5CF6",
+      "selectedContainerColor": "#0A84FF",
       "selectedLabelColor": "#FFFFFF",
-      "unselectedContainerColor": "#1E1E1E",
-      "unselectedLabelColor": "#DEE2E6"
+      "unselectedContainerColor": "#1C1C1E",
+      "unselectedLabelColor": "#D1D1D6"
     },
     "emptyMessage": "No results found for \"{query}\""
   },
@@ -575,23 +575,23 @@
     "_comment": "───────── LIBRARY SCREEN ─────────",
     "enabled": true,
     "pullToRefresh": true,
-    "refreshIndicatorColor": "#8B5CF6",
-    "refreshBackgroundColor": "#121212",
+    "refreshIndicatorColor": "#0A84FF",
+    "refreshBackgroundColor": "#0A0A0A",
     "sections": {
       "smartPlaylists": {
         "enabled": true,
         "title": "Smart Playlists",
         "titleFontSize": 16,
         "titleFontWeight": "bold",
-        "titleColor": "#F1F3F5",
+        "titleColor": "#F2F2F7",
         "cardWidth": 320,
         "cardHeight": 170,
         "cardCornerRadius": 24,
-        "cardBackground": "#1E1E1E",
+        "cardBackground": "#1C1C1E",
         "showExport": true,
         "showPlayAll": true,
         "showDelete": true,
-        "statusBadgeColors": { "ready": "#22C55E", "partial": "#FACC15", "queued": "#3B82F6" },
+        "statusBadgeColors": { "ready": "#30D158", "partial": "#FFD60A", "queued": "#5AC8FA" },
         "emptyMessage": "No smart playlists created"
       },
       "library": {
@@ -599,7 +599,7 @@
         "title": "Library",
         "titleFontSize": 16,
         "titleFontWeight": "bold",
-        "titleColor": "#F1F3F5",
+        "titleColor": "#F2F2F7",
         "gridColumns": 3,
         "showPosters": true,
         "emptyMessage": "Your saved items will appear here"
@@ -609,7 +609,7 @@
         "title": "Watchlist",
         "titleFontSize": 16,
         "titleFontWeight": "bold",
-        "titleColor": "#F1F3F5",
+        "titleColor": "#F2F2F7",
         "gridColumns": 3,
         "showPosters": true,
         "emptyMessage": "Add items to your watchlist to track them"
@@ -619,7 +619,7 @@
         "title": "History",
         "titleFontSize": 16,
         "titleFontWeight": "bold",
-        "titleColor": "#F1F3F5",
+        "titleColor": "#F2F2F7",
         "gridColumns": 3,
         "showPosters": true,
         "emptyMessage": "Your viewing history is currently empty"
@@ -636,36 +636,36 @@
       "imageQuality": "BACKDROP_LARGE",
       "gradientStartAlpha": 0.0,
       "gradientEndAlpha": 1.0,
-      "gradientEndColor": "#121212"
+      "gradientEndColor": "#0A0A0A"
     },
     "topBar": {
       "backIcon": "ArrowBack",
-      "backIconTint": "#F1F3F5",
+      "backIconTint": "#F2F2F7",
       "backButtonSize": 44,
       "watchlistIcon": "Favorite",
       "watchlistIconOutline": "FavoriteBorder",
-      "watchlistIconTint": "#F1F3F5",
-      "watchlistIconSelectedTint": "#EF4444",
+      "watchlistIconTint": "#F2F2F7",
+      "watchlistIconSelectedTint": "#FF3B30",
       "libraryIcon": "Bookmark",
       "libraryIconOutline": "BookmarkBorder",
-      "libraryIconTint": "#F1F3F5",
-      "libraryIconSelectedTint": "#8B5CF6",
+      "libraryIconTint": "#F2F2F7",
+      "libraryIconSelectedTint": "#0A84FF",
       "buttonBackground": "rgba(0,0,0,0.4)",
       "buttonCornerRadius": 50,
       "buttonSize": 44
     },
     "metadata": {
       "typeBadgeCornerRadius": 50,
-      "typeBadgeBackground": "rgba(139,92,246,0.2)",
-      "typeBadgeTextColor": "#8B5CF6",
+      "typeBadgeBackground": "rgba(10,132,255,0.2)",
+      "typeBadgeTextColor": "#0A84FF",
       "typeBadgeTextSize": 10,
       "typeBadgeFontWeight": "bold",
       "titleFontSize": 28,
       "titleFontWeight": "extraBold",
-      "titleColor": "#F1F3F5",
+      "titleColor": "#F2F2F7",
       "yearColor": "rgba(255,255,255,0.7)",
       "runtimeColor": "rgba(255,255,255,0.7)",
-      "ratingColor": "#FACC15",
+      "ratingColor": "#FFD60A",
       "ratingFontWeight": "bold"
     },
     "description": {
@@ -673,7 +673,7 @@
       "maxLines": 4,
       "readMoreText": "Read more",
       "readLessText": "Read less",
-      "textColor": "#ADB5BD",
+      "textColor": "#8E8E93",
       "textSize": 14
     },
     "cast": {
@@ -682,7 +682,7 @@
       "chipCornerRadius": 20,
       "chipBorderColor": "rgba(255,255,255,0.1)",
       "chipBackground": "rgba(255,255,255,0.05)",
-      "chipTextColor": "#DEE2E6",
+      "chipTextColor": "#D1D1D6",
       "chipTextSize": 12,
       "chipTextWeight": "medium",
       "clickable": true
@@ -692,7 +692,7 @@
         "enabled": true,
         "height": 48,
         "cornerRadius": 12,
-        "backgroundColor": "#8B5CF6",
+        "backgroundColor": "#0A84FF",
         "textColor": "#FFFFFF",
         "textWeight": "bold",
         "icon": "PlayArrow",
@@ -704,10 +704,10 @@
         "height": 48,
         "cornerRadius": 12,
         "backgroundColor": "rgba(255,255,255,0.08)",
-        "textColor": "#F1F3F5",
+        "textColor": "#F2F2F7",
         "textWeight": "bold",
         "icon": "Satellite",
-        "iconTint": "#F1F3F5",
+        "iconTint": "#F2F2F7",
         "iconSize": 20,
         "borderColor": "rgba(255,255,255,0.15)",
         "borderWidth": 1,
@@ -719,17 +719,17 @@
       "cornerRadius": 20,
       "backgroundColor": "rgba(255,255,255,0.05)",
       "ratingIcon": "Star",
-      "ratingIconTint": "#FACC15",
+      "ratingIconTint": "#FFD60A",
       "ratingIconSize": 20,
-      "ratingValueColor": "#F1F3F5",
+      "ratingValueColor": "#F2F2F7",
       "ratingValueSize": 20,
       "ratingValueWeight": "black",
       "maxRatingText": "/10",
-      "maxRatingColor": "#ADB5BD",
+      "maxRatingColor": "#8E8E93",
       "imdbButton": {
         "enabled": true,
         "icon": "OpenInNew",
-        "iconTint": "#F1F3F5",
+        "iconTint": "#F2F2F7",
         "iconSize": 20,
         "buttonSize": 48,
         "background": "rgba(255,255,255,0.05)"
@@ -737,7 +737,7 @@
       "trailerButton": {
         "enabled": false,
         "icon": "PlayCircle",
-        "iconTint": "#EF4444",
+        "iconTint": "#FF453A",
         "iconSize": 24,
         "buttonSize": 48,
         "background": "rgba(255,255,255,0.05)"
@@ -745,20 +745,20 @@
     },
     "episodeList": {
       "showWatchedStatus": true,
-      "watchedTextColor": "#22C55E",
+      "watchedTextColor": "#30D158",
       "watchedTextSize": 10,
       "watchedTextWeight": "black",
       "showProgress": true,
       "progressBarHeight": 3,
-      "progressBarColor": "#8B5CF6",
+      "progressBarColor": "#0A84FF",
       "showDescription": true,
       "descriptionMaxLines": 2,
       "showLeftTime": true,
-      "leftTimeColor": "#ADB5BD",
+      "leftTimeColor": "#8E8E93",
       "leftTimeSize": 10,
       "episodeCardHeight": 100,
       "episodeCardCornerRadius": 20,
-      "episodeCardBackground": "#1E1E1E",
+      "episodeCardBackground": "#1C1C1E",
       "thumbnailWidth": 150
     },
     "seasonSelector": {
@@ -766,10 +766,10 @@
       "style": "chips",
       "maxVisible": 5,
       "chipCornerRadius": 8,
-      "chipSelectedBackground": "#8B5CF6",
+      "chipSelectedBackground": "#0A84FF",
       "chipSelectedTextColor": "#FFFFFF",
-      "chipUnselectedBackground": "#1E1E1E",
-      "chipUnselectedTextColor": "#DEE2E6"
+      "chipUnselectedBackground": "#1C1C1E",
+      "chipUnselectedTextColor": "#D1D1D6"
     },
     "streamsSheet": {
       "qualityFilters": [
@@ -783,12 +783,12 @@
       "defaultQualityFilter": "All",
       "showRefresh": true,
       "refreshIcon": "Refresh",
-      "refreshIconTint": "#F1F3F5",
+      "refreshIconTint": "#F2F2F7",
       "showRetry": true,
       "retryButtonText": "Retry",
       "maxStreamsToShow": 50,
       "sheetCornerRadius": 24,
-      "sheetBackground": "#121212",
+      "sheetBackground": "#0A0A0A",
       "headerText": "Available Streams",
       "sourcesFoundText": "{count} sources found",
       "noStreamsText": "No streams available for this episode."
@@ -797,7 +797,7 @@
       "enabled": true,
       "headerText": "Stream Options",
       "playButtonText": "Play",
-      "playButtonBackground": "#8B5CF6",
+      "playButtonBackground": "#0A84FF",
       "playButtonTextColor": "#FFFFFF",
       "actions": [
         { "id": "markWatched", "label": "Mark as Watched", "icon": "Check", "enabled": true },
@@ -811,7 +811,7 @@
       "actionButtonHeight": 48,
       "actionButtonCornerRadius": 12,
       "actionButtonBackground": "rgba(255,255,255,0.08)",
-      "actionButtonTextColor": "#F1F3F5",
+      "actionButtonTextColor": "#F2F2F7",
       "actionButtonTextSize": 12,
       "actionButtonTextWeight": "bold"
     }
@@ -880,11 +880,11 @@
       "trackHeight": 4,
       "trackColor": "rgba(255,255,255,0.2)",
       "bufferedColor": "rgba(255,255,255,0.4)",
-      "progressColor": "#8B5CF6",
+      "progressColor": "#0A84FF",
       "thumbSize": 12,
-      "thumbColor": "#8B5CF6",
+      "thumbColor": "#0A84FF",
       "showTimeLabels": true,
-      "timeLabelColor": "#F1F3F5",
+      "timeLabelColor": "#F2F2F7",
       "timeLabelSize": 12
     },
     "gestures": {
@@ -1001,7 +1001,7 @@
       "enabled": true,
       "sources": ["github", "introdb", "addons"],
       "buttonText": "Skip Intro",
-      "buttonBackground": "rgba(139,92,246,0.9)",
+      "buttonBackground": "rgba(10,132,255,0.9)",
       "buttonTextColor": "#FFFFFF",
       "buttonCornerRadius": 8,
       "buttonElevation": 8,
@@ -1011,7 +1011,7 @@
     "skipOutro": {
       "enabled": true,
       "buttonText": "Next Episode",
-      "buttonBackground": "rgba(139,92,246,0.9)",
+      "buttonBackground": "rgba(10,132,255,0.9)",
       "buttonTextColor": "#FFFFFF",
       "buttonCornerRadius": 8,
       "buttonElevation": 8,
@@ -1091,12 +1091,12 @@
       "iconSize": 48,
       "nameTextSize": 14,
       "nameTextWeight": "bold",
-      "nameTextColor": "#F1F3F5",
+      "nameTextColor": "#F2F2F7",
       "versionTextSize": 10,
-      "versionTextColor": "#ADB5BD",
+      "versionTextColor": "#8E8E93",
       "descriptionTextSize": 12,
       "descriptionMaxLines": 2,
-      "enabledSwitchTint": "#8B5CF6"
+      "enabledSwitchTint": "#0A84FF"
     }
   },
 
@@ -1141,9 +1141,9 @@
       { "id": "parentalControl", "label": "Parental Lock", "enabled": true }
     ],
     "lightThemeColors": [
-      { "hex": "#F8F9FA", "label": "White", "enabled": true },
+      { "hex": "#F2F2F7", "label": "White", "enabled": true },
       { "hex": "#0F766E", "label": "SeaGreen", "enabled": true },
-      { "hex": "#8B5CF6", "label": "Purple", "enabled": true }
+      { "hex": "#0A84FF", "label": "Blue", "enabled": true }
     ],
     "autoPlaySizeLimits": [
       { "value": 1, "label": "1 GB" },
@@ -1175,7 +1175,7 @@
   },
 
   "poster": {
-    "_comment": "───────── POSTER CARD – MODERN DESIGN ─────────",
+    "_comment": "───────── POSTER CARD – MODERN APPLE TV STYLE ─────────",
     "width": 115,
     "height": 173,
     "cornerRadius": 12,
@@ -1183,7 +1183,7 @@
     "showIMDbRating": true,
     "ratingIcon": "Star",
     "ratingIconSize": 10,
-    "ratingIconTint": "#FACC15",
+    "ratingIconTint": "#FFD60A",
     "ratingTextColor": "#FFFFFF",
     "ratingTextSize": 9,
     "ratingTextWeight": "black",
@@ -1200,9 +1200,9 @@
     "overlayMargin": 4,
     "overlayBackground": "rgba(0,0,0,0.4)",
     "progressBarHeight": 4,
-    "progressBarColor": "#8B5CF6",
+    "progressBarColor": "#0A84FF",
     "progressBarTrackColor": "rgba(255,255,255,0.2)",
-    "emptyPosterColor": "#1E1E1E",
+    "emptyPosterColor": "#1C1C1E",
     "imageCacheKeyPrefix": "poster_",
     "defaultPosterUrl": ""
   },
