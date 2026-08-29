@@ -317,7 +317,7 @@
 
   "ui": {
     "_comment": "───────── GLOBAL UI – DEFAULT THEME (DEEP) ─────────",
-    "accentColor": "#0A84FF",
+    "accentColor": "#d4d4d4",
     "secondaryColor": "#30D158",
     "successColor": "#30D158",
     "warningColor": "#FFD60A",
@@ -455,7 +455,7 @@
 
   "home": {
     "_comment": "───────── HOME SCREEN ─────────",
-    "enabled": true,
+    "enabled": false,
     "topBar": {
       "showLogo": true,
       "logoIcon": "Bolt",
@@ -471,7 +471,7 @@
       "showNotificationsButton": true,
       "notificationsIcon": "Notifications",
       "notificationsIconTint": "rgba(255,255,255,0.7)",
-      "showAnalyticsButton": true,
+      "showAnalyticsButton": false,
       "analyticsIcon": "BarChart",
       "analyticsIconTint": "rgba(255,255,255,0.7)",
       "showAvatar": false,
