@@ -87,7 +87,7 @@
 
   "ui": {
     "_comment": "───────── GLOBAL USER INTERFACE APPEARANCE ─────────",
-    "accentColor": "#38BDF8",
+    "accentColor": "#ffffff",
     "secondaryColor": "#8B5CF6",
     "successColor": "#22C55E",
     "warningColor": "#FACC15",
@@ -345,7 +345,7 @@
     "enabled": true,
     "voiceSearchEnabled": true,
     "debounceMs": 600,
-    "maxResults": 20,
+    "maxResults": 70,
     "searchHistoryLimit": 20,
     "filters": {
       "types": [
@@ -365,7 +365,7 @@
     },
     "history": {
       "enabled": true,
-      "maxItems": 20,
+      "maxItems": 10,
       "clearOnExit": false,
       "clearButtonText": "Clear All History"
     },
@@ -528,7 +528,7 @@
       }
     },
     "ratingCard": {
-      "enabled": true,
+      "enabled": false,
       "cornerRadius": 20,
       "backgroundColor": "transparent",
       "ratingIcon": "Star",
@@ -548,7 +548,7 @@
         "background": "rgba(255,255,255,0.05)"
       },
       "trailerButton": {
-        "enabled": true,
+        "enabled": false,
         "icon": "PlayCircle",
         "iconTint": "AccentRed",
         "iconSize": 24,
@@ -615,11 +615,11 @@
       "actions": [
         { "id": "markWatched", "label": "Mark as Watched", "icon": "Check", "enabled": true },
         { "id": "smartPlaylist", "label": "Make Smart Playlist", "icon": "PlaylistPlay", "enabled": true },
-        { "id": "searchSubtitles", "label": "Search Subtitles", "icon": "ClosedCaption", "enabled": true },
+        { "id": "searchSubtitles", "label": "Search Subtitles", "icon": "ClosedCaption", "enabled": false },
         { "id": "openBrowser", "label": "Open in Browser", "icon": "OpenInBrowser", "enabled": true },
         { "id": "copyUrl", "label": "Copy Video URL", "icon": "ContentCopy", "enabled": true },
         { "id": "download", "label": "Download Video", "icon": "Download", "enabled": true },
-        { "id": "exportM3u", "label": "Export / Play .m3u", "icon": "FileDownload", "enabled": true }
+        { "id": "exportM3u", "label": "Export / Play .m3u", "icon": "FileDownload", "enabled": false }
       ],
       "actionButtonHeight": 48,
       "actionButtonCornerRadius": 12,
@@ -974,7 +974,7 @@
       { "id": "watched", "label": "WATCHED", "enabled": true },
       { "id": "progress", "label": "PROGRESS", "enabled": true },
       { "id": "library", "label": "LIBRARY", "enabled": true },
-      { "id": "watchlist", "label": "WATCHLIST", "enabled": true },
+      { "id": "watchlist", "label": "WATCHLIST", "enabled": false },
       { "id": "history", "label": "HISTORY", "enabled": true },
       { "id": "completion", "label": "COMPLETION", "enabled": true }
     ],
@@ -1050,7 +1050,7 @@
       "enabled": true
     },
     "deadLinkCache": {
-      "ttlDays": 7,
+      "ttlDays": 1,
       "enabled": true
     },
     "sonicCache": {
