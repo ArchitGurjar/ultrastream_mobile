@@ -1117,10 +1117,10 @@
         "enabled": true
       },
       {
-        "id": "movieBox",
-        "name": "MovieBox",
+        "id": "PIPE",
+        "name": "PIPE",
         "description": "stream sources",
-        "url": "https://stremio-moviebox-pdtq.onrender.com/manifest.json",
+        "url": "https://pipe.boringways.workers.dev/eyJyIjpbIjIxNjBwIl0sInEiOlsiQ0FNIiwiU0NSIiwiVW5rbm93biJdLCJwIjpbIlR1cmtpc2gxMjMiXX0/manifest.json",
         "enabled": true
       },
       {
