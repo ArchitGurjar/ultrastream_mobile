@@ -317,7 +317,7 @@
 
   "ui": {
     "_comment": "───────── GLOBAL UI – DEFAULT THEME (DEEP) ─────────",
-    "accentColor": "#d4d4d4",
+    "accentColor": "#0A84FF",
     "secondaryColor": "#30D158",
     "successColor": "#30D158",
     "warningColor": "#FFD60A",
@@ -425,7 +425,7 @@
   },
 
   "navigation": {
-    "_comment": "───────── BOTTOM NAVIGATION BAR (UNCHANGED) ─────────",
+    "_comment": "───────── BOTTOM NAVIGATION BAR ─────────",
     "enabled": true,
     "style": "floating",
     "height": 72,
@@ -746,7 +746,10 @@
         "textWeight": "bold",
         "icon": "PlayArrow",
         "iconTint": "black",
-        "iconSize": 20
+        "iconSize": 20,
+        "borderColor": "",
+        "borderWidth": 0,
+        "loadingText": ""
       },
       "findStreamsButton": {
         "enabled": true,
@@ -764,7 +767,7 @@
       }
     },
     "ratingCard": {
-      "enabled": false,
+      "enabled": true,
       "cornerRadius": 20,
       "backgroundColor": "transparent",
       "ratingIcon": "Star",
@@ -784,9 +787,9 @@
         "background": "rgba(255,255,255,0.05)"
       },
       "trailerButton": {
-        "enabled": false,
+        "enabled": true,
         "icon": "PlayCircle",
-        "iconTint": "AccentRed",
+        "iconTint": "#EF4444",
         "iconSize": 24,
         "buttonSize": 48,
         "background": "rgba(255,255,255,0.05)"
@@ -823,9 +826,9 @@
     "streamsSheet": {
       "qualityFilters": [
         { "id": "All", "label": "All", "enabled": true },
-        { "id": "480p", "label": "480p", "enabled": true },
-        { "id": "720p", "label": "720p", "enabled": true },
+        { "id": "4K", "label": "4K", "enabled": true },
         { "id": "1080p", "label": "1080p", "enabled": true },
+        { "id": "720p", "label": "720p", "enabled": true },
         { "id": "Verified", "label": "Verified", "enabled": true },
         { "id": "Hindi", "label": "Hindi", "enabled": true }
       ],
@@ -851,11 +854,11 @@
       "actions": [
         { "id": "markWatched", "label": "Mark as Watched", "icon": "Check", "enabled": true },
         { "id": "smartPlaylist", "label": "Make Smart Playlist", "icon": "PlaylistPlay", "enabled": true },
-        { "id": "searchSubtitles", "label": "Search Subtitles", "icon": "ClosedCaption", "enabled": false },
+        { "id": "searchSubtitles", "label": "Search Subtitles", "icon": "ClosedCaption", "enabled": true },
         { "id": "openBrowser", "label": "Open in Browser", "icon": "OpenInBrowser", "enabled": true },
         { "id": "copyUrl", "label": "Copy Video URL", "icon": "ContentCopy", "enabled": true },
         { "id": "download", "label": "Download Video", "icon": "Download", "enabled": true },
-        { "id": "exportM3u", "label": "Export / Play .m3u", "icon": "FileDownload", "enabled": false }
+        { "id": "exportM3u", "label": "Export / Play .m3u", "icon": "FileDownload", "enabled": true }
       ],
       "actionButtonHeight": 48,
       "actionButtonCornerRadius": 12,
@@ -935,7 +938,7 @@
       "timeLabelSize": 12
     },
     "gestures": {
-      "enabled":true,
+      "enabled": true,
       "doubleTapSeekMs": 10000,
       "verticalSwipeSensitivity": 2,
       "enablePinchZoom": false,
@@ -1222,7 +1225,7 @@
   },
 
   "poster": {
-    "_comment": "───────── POSTER CARD – MODERN APPLE TV STYLE ─────────",
+    "_comment": "───────── POSTER CARD ─────────",
     "width": 115,
     "height": 173,
     "cornerRadius": 12,
@@ -1357,6 +1360,26 @@
     "logNetworkCalls": false,
     "logImageLoading": false,
     "logPlaybackEvents": true
+  },
+
+  "update": {
+    "_comment": "───────── IN‑APP UPDATE SYSTEM ─────────",
+    "latestVersionCode": 5,
+    "latestVersionName": "1.0.4",
+    "updateUrl": "https://your-server.com/ultraplay-v1.0.4.apk",
+    "releaseNotes": "🚀 Faster playback\n🎨 New glassy UI components\n🐛 Fixed crash on Android 14",
+    "forceUpdate": false
+  },
+
+  "donation": {
+    "_comment": "───────── SUPPORT THE PROJECT ─────────",
+    "title": "Support the Project",
+    "message": "Help us keep UltraStream ad-free and updated!",
+    "coffeeUrl": "https://www.buymeacoffee.com/ultrastream",
+    "coffeeLinkText": "buymeacoffee.com/ultrastream",
+    "patreonUrl": "https://www.patreon.com/ultrastream",
+    "patreonLinkText": "patreon.com/ultrastream",
+    "enabled": true
   },
 
   "features": {
