@@ -330,7 +330,7 @@
     }
   },
  "details": {
-    "contentPadding": 24,
+    "contentPadding": 4,
     "sectionSpacing": 5,
     "actionSpacing": 2,
     "backdrop": {
