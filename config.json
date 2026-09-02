@@ -331,8 +331,8 @@
   },
   "details": {
     "contentPadding": 24,
-    "sectionSpacing": 45,
-    "actionSpacing": 20,
+    "sectionSpacing": 0,
+    "actionSpacing": 40,
     "backdrop": {
       "height": 170,
       "showTopGradient": true,
@@ -870,7 +870,7 @@
     "title": "Support the Project",
     "message": "Help us keep UltraStream ad-free and maintained! Your contributions help cover server costs and development time.",
     "coffeeUrl": "https://www.buymeacoffee.com/ultrastream",
-    "coffeeLinkText": "buymeacoffee.com/ultrastream",
+    "coffeeLinkText": "buymeacoffee.com/UltraStreamApp",
     "patreonUrl": "https://www.patreon.com/ultrastream",
     "patreonLinkText": "patreon.com/ultrastream",
     "enabled": true
