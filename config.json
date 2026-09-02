@@ -331,10 +331,10 @@
   },
    "details": {
     "contentPadding": 16,
-    "sectionSpacing": 0,
-    "actionSpacing": 0,
+    "sectionSpacing": 2,
+    "actionSpacing": 2,
     "backdrop": {
-      "height": 170,
+      "height": 130,
       "showTopGradient": true,
       "topGradientAlpha": 0.6,
       "imageQuality": "BACKDROP_LARGE",
@@ -344,11 +344,11 @@
     },
     "metadata": {
       "logoAlignment": "center",
-      "logoHeight": 130,
-      "typeBadgeCornerRadius": 50,
+      "logoHeight": 200,
+      "typeBadgeCornerRadius": 35,
       "typeBadgeBackground": "transparent",
       "typeBadgeTextColor": "white",
-      "typeBadgeTextSize": 10,
+      "typeBadgeTextSize": 20,
       "typeBadgeFontWeight": "bold",
       "titleFontSize": 28,
       "titleFontWeight": "extraBold",
