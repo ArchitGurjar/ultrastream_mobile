@@ -336,7 +336,7 @@
       "height": 140,
       "imageQuality": "BACKDROP_LARGE",
       "gradientStartAlpha": 0.0,
-      "gradientEndAlpha": 0.6,
+      "gradientEndAlpha": 0.2,
       "gradientEndColor": "background"
     },
     "topBar": {
