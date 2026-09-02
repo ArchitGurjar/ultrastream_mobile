@@ -331,7 +331,7 @@
   },
   "details": {
     "contentPadding": 15,
-    "sectionSpacing": 24,
+    "sectionSpacing": 4,
     "actionSpacing": 40,
     "backdrop": {
       "height": 170,
