@@ -326,7 +326,8 @@
         "cardHeight": 170,
         "cardCornerRadius": 24,
         "showDelete": true
-      
+        }   
+}
   },
    "details": {
     "contentPadding": 24,
