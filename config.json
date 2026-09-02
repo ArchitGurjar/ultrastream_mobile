@@ -330,7 +330,7 @@
     }
   },
   "details": {
-    "contentPadding": 20,
+    "contentPadding": 1,
     "sectionSpacing": 2,
     "actionSpacing": 10,
     "backdrop": {
@@ -344,7 +344,7 @@
     },
     "metadata": {
       "logoAlignment": "center",
-      "logoHeight": 200,
+      "logoHeight": 100,
       "typeBadgeCornerRadius": 20,
       "typeBadgeBackground": "transparent",
       "typeBadgeTextColor": "white",
