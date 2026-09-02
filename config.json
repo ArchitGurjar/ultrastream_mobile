@@ -345,7 +345,7 @@
     "metadata": {
       "logoAlignment": "center",
       "logoHeight": 120,
-      "typeBadgeCornerRadius": 35,
+      "typeBadgeCornerRadius": 40,
       "typeBadgeBackground": "transparent",
       "typeBadgeTextColor": "white",
       "typeBadgeTextSize": 20,
