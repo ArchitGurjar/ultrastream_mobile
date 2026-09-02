@@ -329,25 +329,34 @@
       }
     }
   },
- "details": {
+  "details": {
     "contentPadding": 24,
     "sectionSpacing": 15,
     "actionSpacing": 20,
     "backdrop": {
       "height": 170,
       "showTopGradient": true,
-      "topGradientAlpha": 0.6
+      "topGradientAlpha": 0.6,
+      "imageQuality": "BACKDROP_LARGE",
+      "gradientStartAlpha": 0.0,
+      "gradientEndAlpha": 0.8,
+      "gradientEndColor": "background"
     },
     "metadata": {
       "logoAlignment": "center",
-      "logoHeight": 130
-    },
-    "cast": {
-      "interItemSpacing": 10
-    },
-    "episodeList": {
-      "listSpacing": 12,
-      "horizontalPadding": 24
+      "logoHeight": 110,
+      "typeBadgeCornerRadius": 50,
+      "typeBadgeBackground": "transparent",
+      "typeBadgeTextColor": "white",
+      "typeBadgeTextSize": 10,
+      "typeBadgeFontWeight": "bold",
+      "titleFontSize": 28,
+      "titleFontWeight": "extraBold",
+      "titleColor": "white",
+      "yearColor": "white",
+      "runtimeColor": "white",
+      "ratingColor": "accent",
+      "ratingFontWeight": "bold"
     },
     "topBar": {
       "backIcon": "ArrowBack",
@@ -361,21 +370,6 @@
       "buttonCornerRadius": 50,
       "buttonSize": 44
     },
-    "metadata": {
-      "typeBadgeCornerRadius": 50,
-      "typeBadgeBackground": "transparent",
-      "typeBadgeTextColor": "white",
-      "typeBadgeTextSize": 10,
-      "typeBadgeFontWeight": "bold",
-      "titleFontSize": 28,
-      "titleFontWeight": "extraBold",
-      "titleColor": "white",
-      "yearColor": "white",
-      "runtimeColor": "white",
-      "ratingColor": "accent",
-      "ratingFontWeight": "bold",
-      "logoAlignment": "center"
-    },
     "description": {
       "enabled": true,
       "maxLines": 4,
@@ -385,6 +379,7 @@
       "textSize": 14
     },
     "cast": {
+      "interItemSpacing": 10,
       "enabled": true,
       "maxItems": 8,
       "chipCornerRadius": 20,
@@ -422,7 +417,7 @@
       }
     },
     "ratingCard": {
-      "enabled": false,
+      "enabled": true,
       "cornerRadius": 20,
       "backgroundColor": "transparent",
       "ratingIcon": "Star",
@@ -437,6 +432,8 @@
       "trailerButton": { "enabled": true, "icon": "PlayCircleFilled", "buttonSize": 48 }
     },
     "episodeList": {
+      "listSpacing": 12,
+      "horizontalPadding": 24,
       "showWatchedStatus": true,
       "watchedTextColor": "accent",
       "watchedTextSize": 10,
