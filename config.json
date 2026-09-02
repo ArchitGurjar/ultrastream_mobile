@@ -77,7 +77,7 @@
     "queryAllPackages": false
   },
   "splash": {
-  "logoUrl": "https://github.com/ArchitGurjar/ultrastream_mobile/blob/2f712ca2f104502e155e9d05792102e47f2e7c9a/Canvas%20(51).png",
+  "logoUrl": "https://raw.githubusercontent.com/ArchitGurjar/ultrastream_mobile/refs/heads/main/Canvas%20(51).png",
   "logoSize": 220,
   "animationDurationMs": 2500,
   "titleText": "ULTRA STREAM",
