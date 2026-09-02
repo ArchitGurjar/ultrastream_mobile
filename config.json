@@ -330,9 +330,9 @@
     }
   },
   "details": {
-    "contentPadding": 1,
-    "sectionSpacing": 2,
-    "actionSpacing": 10,
+    "contentPadding": 15,
+    "sectionSpacing": 24,
+    "actionSpacing": 40,
     "backdrop": {
       "height": 170,
       "showTopGradient": true,
@@ -372,7 +372,7 @@
     },
     "description": {
       "enabled": true,
-      "maxLines": 2,
+      "maxLines": 4,
       "readMoreText": "Read more",
       "readLessText": "Read less",
       "textColor": "textMuted",
