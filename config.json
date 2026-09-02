@@ -331,8 +331,8 @@
   },
    "details": {
     "contentPadding": 16,
-    "sectionSpacing": -10,
-    "actionSpacing": 1,
+    "sectionSpacing": 4,
+    "actionSpacing": 6,
     "backdrop": {
       "height": 130,
       "showTopGradient": true,
@@ -344,7 +344,7 @@
     },
     "metadata": {
       "logoAlignment": "center",
-      "logoHeight": 200,
+      "logoHeight": 120,
       "typeBadgeCornerRadius": 35,
       "typeBadgeBackground": "transparent",
       "typeBadgeTextColor": "white",
@@ -380,7 +380,7 @@
     },
     "cast": {
       "interItemSpacing": 10,
-      "enabled": true,
+      "enabled": false,
       "maxItems": 8,
       "chipCornerRadius": 20,
       "chipBorderColor": "rgba(255,255,255,0.2)",
