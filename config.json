@@ -412,7 +412,7 @@
       }
     },
     "ratingCard": {
-      "enabled": true,
+      "enabled": false,
       "cornerRadius": 20,
       "backgroundColor": "transparent",
       "ratingIcon": "Star",
