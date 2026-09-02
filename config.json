@@ -333,7 +333,7 @@
     "enabled": true,
     "backdrop": {
       "enabled": true,
-      "height": 200,
+      "height": 100,
       "imageQuality": "BACKDROP_LARGE",
       "gradientStartAlpha": 0.0,
       "gradientEndAlpha": 0.8,
