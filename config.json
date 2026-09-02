@@ -330,11 +330,11 @@
     }
   },
    "details": {
-    "contentPadding": 10,
-    "sectionSpacing": 4,
-    "actionSpacing": 10,
+    "contentPadding": 25,
+    "sectionSpacing": 1,
+    "actionSpacing": 1,
     "backdrop": {
-      "height": 200,
+      "height": 170,
       "showTopGradient": true,
       "topGradientAlpha": 0.6,
       "imageQuality": "BACKDROP_LARGE",
