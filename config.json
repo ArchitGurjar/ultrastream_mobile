@@ -1,6 +1,6 @@
 {
   "version": 4,
-  "configUrl": "https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/config.json",
+  "configUrl": "https://raw.githubusercontent.com/ArchitGurjar/ultrastream_mobile/refs/heads/main/config.json",
   "app": {
     "name": "UltraStream",
     "packageName": "com.ultrastream.app",
