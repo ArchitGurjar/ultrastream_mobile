@@ -376,7 +376,7 @@
       "readMoreText": "Read more",
       "readLessText": "Read less",
       "textColor": "textMuted",
-      "textSize": 8
+      "textSize": 12
     },
     "cast": {
       "interItemSpacing": 10,
@@ -386,7 +386,7 @@
       "chipBorderColor": "rgba(255,255,255,0.2)",
       "chipBackground": "transparent",
       "chipTextColor": "white",
-      "chipTextSize": 8,
+      "chipTextSize": 12,
       "chipTextWeight": "medium",
       "clickable": false
     },
@@ -449,7 +449,7 @@
       "episodeCardHeight": 100,
       "episodeCardCornerRadius": 20,
       "episodeCardBackground": "surface",
-      "thumbnailWidth": 250
+      "thumbnailWidth": 150
     },
     "seasonSelector": {
       "enabled": true,
