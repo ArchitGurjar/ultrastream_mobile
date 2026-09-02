@@ -339,16 +339,16 @@
       "topGradientAlpha": 0.6,
       "imageQuality": "BACKDROP_LARGE",
       "gradientStartAlpha": 0.0,
-      "gradientEndAlpha": 0.8,
+      "gradientEndAlpha": 0.3,
       "gradientEndColor": "background"
     },
     "metadata": {
       "logoAlignment": "center",
-      "logoHeight": 130,
+      "logoHeight": 200,
       "typeBadgeCornerRadius": 20,
       "typeBadgeBackground": "transparent",
       "typeBadgeTextColor": "white",
-      "typeBadgeTextSize": 10,
+      "typeBadgeTextSize": 20,
       "typeBadgeFontWeight": "bold",
       "titleFontSize": 28,
       "titleFontWeight": "extraBold",
@@ -372,11 +372,11 @@
     },
     "description": {
       "enabled": true,
-      "maxLines": 4,
+      "maxLines": 2,
       "readMoreText": "Read more",
       "readLessText": "Read less",
       "textColor": "textMuted",
-      "textSize": 14
+      "textSize": 8
     },
     "cast": {
       "interItemSpacing": 10,
@@ -386,9 +386,9 @@
       "chipBorderColor": "rgba(255,255,255,0.2)",
       "chipBackground": "transparent",
       "chipTextColor": "white",
-      "chipTextSize": 12,
+      "chipTextSize": 8,
       "chipTextWeight": "medium",
-      "clickable": true
+      "clickable": false
     },
     "actions": {
       "resumeButton": {
@@ -432,8 +432,8 @@
       "trailerButton": { "enabled": true, "icon": "PlayCircleFilled", "buttonSize": 48 }
     },
     "episodeList": {
-      "listSpacing": 12,
-      "horizontalPadding": 24,
+      "listSpacing": 8,
+      "horizontalPadding": 10,
       "showWatchedStatus": true,
       "watchedTextColor": "accent",
       "watchedTextSize": 10,
@@ -445,11 +445,11 @@
       "descriptionMaxLines": 2,
       "showLeftTime": true,
       "leftTimeColor": "accent",
-      "leftTimeSize": 10,
+      "leftTimeSize": 15,
       "episodeCardHeight": 100,
       "episodeCardCornerRadius": 20,
       "episodeCardBackground": "surface",
-      "thumbnailWidth": 150
+      "thumbnailWidth": 250
     },
     "seasonSelector": {
       "enabled": true,
