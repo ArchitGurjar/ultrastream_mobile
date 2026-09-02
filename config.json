@@ -329,15 +329,25 @@
       }
     }
   },
-  "details": {
-    "enabled": true,
+ "details": {
+    "contentPadding": 24,
+    "sectionSpacing": 16,
+    "actionSpacing": 12,
     "backdrop": {
-      "enabled": true,
-      "height": 140,
-      "imageQuality": "BACKDROP_LARGE",
-      "gradientStartAlpha": 0.4,
-      "gradientEndAlpha": 0.2,
-      "gradientEndColor": "background"
+      "height": 300,
+      "showTopGradient": true,
+      "topGradientAlpha": 0.6
+    },
+    "metadata": {
+      "logoAlignment": "center",
+      "logoHeight": 110
+    },
+    "cast": {
+      "interItemSpacing": 10
+    },
+    "episodeList": {
+      "listSpacing": 12,
+      "horizontalPadding": 24
     },
     "topBar": {
       "backIcon": "ArrowBack",
