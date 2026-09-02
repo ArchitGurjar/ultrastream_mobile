@@ -46,7 +46,7 @@
       "licenseUrl": "https://ultrastream.app/license"
     },
     "defaultAddons": {
-      "cinemeta": "https://v3-cinemeta.strem.fun/manifest.json",
+      "cinemeta": "https://v3-cinemeta.strem.io/manifest.json",
       "hdhub": "https://hdhub.thevolecitor.qzz.io/eyJ0b3Jib3giOiJ1bnNldCIsInF1YWxpdGllcyI6IjIxNjBwLDEwODBwLDcyMHAiLCJzb3J0IjoiZGVzYyJ9/manifest.json",
       "opensubtitles": "https://opensubtitles-v3.strem.fun/manifest.json",
       "local": "https://local.strem.io/manifest.json"
