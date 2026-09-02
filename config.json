@@ -307,7 +307,7 @@
     },
     "emptyMessage": "No results found for \"{query}\""
   },
-  "library": {
+   "library": {
     "enabled": true,
     "pullToRefresh": true,
     "refreshIndicatorColor": "primary",
@@ -326,8 +326,8 @@
         "cardHeight": 170,
         "cardCornerRadius": 24,
         "showDelete": true
-        }   
-}
+      }
+    }
   },
    "details": {
     "contentPadding": 24,
