@@ -333,10 +333,10 @@
     "enabled": true,
     "backdrop": {
       "enabled": true,
-      "height": 100,
+      "height": 140,
       "imageQuality": "BACKDROP_LARGE",
       "gradientStartAlpha": 0.0,
-      "gradientEndAlpha": 0.8,
+      "gradientEndAlpha": 0.6,
       "gradientEndColor": "background"
     },
     "topBar": {
