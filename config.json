@@ -432,8 +432,8 @@
       "trailerButton": { "enabled": true, "icon": "PlayCircleFilled", "buttonSize": 48 }
     },
     "episodeList": {
-      "listSpacing": 8,
-      "horizontalPadding": 10,
+      "listSpacing": 10,
+      "horizontalPadding": 24,
       "showWatchedStatus": true,
       "watchedTextColor": "accent",
       "watchedTextSize": 10,
@@ -445,7 +445,7 @@
       "descriptionMaxLines": 2,
       "showLeftTime": true,
       "leftTimeColor": "accent",
-      "leftTimeSize": 15,
+      "leftTimeSize": 10,
       "episodeCardHeight": 100,
       "episodeCardCornerRadius": 20,
       "episodeCardBackground": "surface",
