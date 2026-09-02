@@ -501,6 +501,15 @@
     }
   },
   "player": {
+    "customStyle": {
+    "iconColor": "#FFFFFF",
+    "iconBackgroundType": "none",
+    "iconTransparency": 1.0,
+    "progressBarColor": "primary",
+    "progressBarHeight": 4,
+    "progressBarWidthFraction": 1.0,
+    "sheetTransparency": 0.9
+    },
     "enabled": true,
     "defaultResizeMode": "fit",
     "resizeModes": [
