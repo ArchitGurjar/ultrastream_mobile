@@ -333,7 +333,7 @@
     "enabled": true,
     "backdrop": {
       "enabled": true,
-      "height": 350,
+      "height": 300,
       "imageQuality": "BACKDROP_LARGE",
       "gradientStartAlpha": 0.0,
       "gradientEndAlpha": 0.8,
@@ -363,7 +363,8 @@
       "yearColor": "white",
       "runtimeColor": "white",
       "ratingColor": "accent",
-      "ratingFontWeight": "bold"
+      "ratingFontWeight": "bold",
+      "logoAlignment": "center"
     },
     "description": {
       "enabled": true,
