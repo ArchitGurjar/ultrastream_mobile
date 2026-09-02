@@ -335,7 +335,7 @@
       "enabled": true,
       "height": 140,
       "imageQuality": "BACKDROP_LARGE",
-      "gradientStartAlpha": 0.0,
+      "gradientStartAlpha": 0.4,
       "gradientEndAlpha": 0.2,
       "gradientEndColor": "background"
     },
