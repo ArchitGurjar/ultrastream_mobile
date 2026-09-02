@@ -330,8 +330,8 @@
     }
   },
    "details": {
-    "contentPadding": 1,
-    "sectionSpacing": 1,
+    "contentPadding": 16,
+    "sectionSpacing": -10,
     "actionSpacing": 1,
     "backdrop": {
       "height": 130,
