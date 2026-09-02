@@ -76,6 +76,16 @@
     "manageExternalStorage": false,
     "queryAllPackages": false
   },
+  "splash": {
+  "logoUrl": "https://raw.githubusercontent.com/.../my_logo.png",
+  "logoSize": 220,
+  "animationDurationMs": 2500,
+  "titleText": "ULTRA STREAM",
+  "showTitle": true,
+  "showLoadingBar": true,
+  "showWaveAnimation": true,
+  "outlineColor": "rgba(255,255,255,0.6)"
+},
   "ui": {
     "accentColor": "#FDFCF0",
     "secondaryColor": "#8B5CF6",
