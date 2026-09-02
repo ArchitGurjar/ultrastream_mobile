@@ -76,15 +76,19 @@
     "manageExternalStorage": false,
     "queryAllPackages": false
   },
-  "splash": {
+"splash": {
   "logoUrl": "https://raw.githubusercontent.com/ArchitGurjar/ultrastream_mobile/refs/heads/main/Canvas%20(51).png",
-  "logoSize": 220,
-  "animationDurationMs": 2500,
+  "logoSize": 170,
+  "animationDurationMs": 1500,
+  "initialAlpha": 0.2,
+  "targetAlpha": 1.0,
+  "waveHeightDp": 8,
+  "waveSpeedMs": 2000,
   "titleText": "ULTRA STREAM",
   "showTitle": true,
   "showLoadingBar": true,
   "showWaveAnimation": true,
-  "outlineColor": "rgba(255,255,255,0.6)"
+  "outlineColor": "rgba(255,255,255,0.5)"
 },
   "ui": {
     "accentColor": "#FDFCF0",
