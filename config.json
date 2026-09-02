@@ -332,7 +332,7 @@
   "details": {
     "contentPadding": 15,
     "sectionSpacing": 4,
-    "actionSpacing": 40,
+    "actionSpacing": 1,
     "backdrop": {
       "height": 170,
       "showTopGradient": true,
