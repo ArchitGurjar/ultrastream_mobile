@@ -326,29 +326,28 @@
         "cardHeight": 170,
         "cardCornerRadius": 24,
         "showDelete": true
-      }
-    }
+      
   },
-  "details": {
-    "contentPadding": 15,
-    "sectionSpacing": 4,
-    "actionSpacing": 1,
+   "details": {
+    "contentPadding": 24,
+    "sectionSpacing": 15,
+    "actionSpacing": 20,
     "backdrop": {
       "height": 170,
       "showTopGradient": true,
       "topGradientAlpha": 0.6,
       "imageQuality": "BACKDROP_LARGE",
       "gradientStartAlpha": 0.0,
-      "gradientEndAlpha": 0.3,
+      "gradientEndAlpha": 0.8,
       "gradientEndColor": "background"
     },
     "metadata": {
       "logoAlignment": "center",
-      "logoHeight": 100,
-      "typeBadgeCornerRadius": 20,
+      "logoHeight": 130,
+      "typeBadgeCornerRadius": 50,
       "typeBadgeBackground": "transparent",
       "typeBadgeTextColor": "white",
-      "typeBadgeTextSize": 20,
+      "typeBadgeTextSize": 10,
       "typeBadgeFontWeight": "bold",
       "titleFontSize": 28,
       "titleFontWeight": "extraBold",
@@ -376,7 +375,7 @@
       "readMoreText": "Read more",
       "readLessText": "Read less",
       "textColor": "textMuted",
-      "textSize": 12
+      "textSize": 14
     },
     "cast": {
       "interItemSpacing": 10,
@@ -388,7 +387,7 @@
       "chipTextColor": "white",
       "chipTextSize": 12,
       "chipTextWeight": "medium",
-      "clickable": false
+      "clickable": true
     },
     "actions": {
       "resumeButton": {
@@ -432,7 +431,7 @@
       "trailerButton": { "enabled": true, "icon": "PlayCircleFilled", "buttonSize": 48 }
     },
     "episodeList": {
-      "listSpacing": 10,
+      "listSpacing": 12,
       "horizontalPadding": 24,
       "showWatchedStatus": true,
       "watchedTextColor": "accent",
