@@ -334,7 +334,7 @@
     "sectionSpacing": 4,
     "actionSpacing": 10,
     "backdrop": {
-      "height": 130,
+      "height": 200,
       "showTopGradient": true,
       "topGradientAlpha": 0.6,
       "imageQuality": "BACKDROP_LARGE",
