@@ -78,7 +78,7 @@
   },
 "splash": {
   "logoUrl": "https://raw.githubusercontent.com/ArchitGurjar/ultrastream_mobile/refs/heads/main/Canvas%20(51).png",
-  "logoSize": 330,
+  "logoSize": 130,
   "animationDurationMs": 1500,
   "initialAlpha": 0.2,
   "targetAlpha": 1.0,
