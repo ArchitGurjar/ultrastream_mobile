@@ -2,7 +2,7 @@
   "version": 4,
   "configUrl": "https://raw.githubusercontent.com/ArchitGurjar/ultrastream_mobile/refs/heads/main/config.json",
   "app": {
-    "name": " ",
+    "name": "UltraStream",
     "packageName": "com.ultrastream.app",
     "debugMode": false,
     "splashScreenEnabled": true,
@@ -76,20 +76,20 @@
     "manageExternalStorage": false,
     "queryAllPackages": false
   },
-"splash": {
-  "logoUrl": "https://raw.githubusercontent.com/ArchitGurjar/ultrastream_mobile/refs/heads/main/Canvas%20(51).png",
-  "logoSize": 130,
-  "animationDurationMs": 1500,
-  "initialAlpha": 0.2,
-  "targetAlpha": 1.0,
-  "waveHeightDp": 8,
-  "waveSpeedMs": 2000,
-  "titleText": "ULTRA STREAM",
-  "showTitle": true,
-  "showLoadingBar": true,
-  "showWaveAnimation": true,
-  "outlineColor": "rgba(255,255,255,0.5)"
-},
+  "splash": {
+    "logoUrl": "https://raw.githubusercontent.com/.../my_logo.png",
+    "logoSize": 220,
+    "animationDurationMs": 2500,
+    "initialAlpha": 0.2,
+    "targetAlpha": 1.0,
+    "waveHeightDp": 8,
+    "waveSpeedMs": 2000,
+    "titleText": "ULTRA STREAM",
+    "showTitle": true,
+    "showLoadingBar": true,
+    "showWaveAnimation": true,
+    "outlineColor": "rgba(255,255,255,0.6)"
+  },
   "ui": {
     "accentColor": "#FDFCF0",
     "secondaryColor": "#8B5CF6",
@@ -212,6 +212,14 @@
       "showLogo": true,
       "logoIcon": "Bolt",
       "logoSize": 28,
+      "logoUrl": "",
+      "logoWidth": 28,
+      "logoHeight": 28,
+      "logoPaddingStart": 0,
+      "logoPaddingTop": 0,
+      "logoPaddingEnd": 0,
+      "logoPaddingBottom": 0,
+      "logoAlpha": 1.0,
       "logoColor": "white",
       "appName": "UltraStream",
       "appNameFontSize": 22,
@@ -220,15 +228,15 @@
       "showRefreshButton": true,
       "refreshIcon": "Refresh",
       "refreshIconTint": "rgba(255,255,255,0.7)",
-      "showNotificationsButton": false,
+      "showNotificationsButton": true,
       "notificationsIcon": "Notifications",
       "notificationsIconTint": "rgba(255,255,255,0.7)",
-      "showAnalyticsButton": false,
+      "showAnalyticsButton": true,
       "analyticsIcon": "BarChart",
       "analyticsIconTint": "rgba(255,255,255,0.7)",
-      "showAvatar": false,
+      "showAvatar": true,
       "avatarSize": 32,
-      "avatarText": "U",
+      "avatarText": "A",
       "avatarTextColor": "black",
       "avatarBackgroundColor": "white",
       "topBarHeight": 56,
@@ -264,21 +272,35 @@
       "continue_watching": {
         "enabled": true,
         "title": "Continue Watching",
+        "titleFontSize": 16,
+        "titleFontWeight": "extraBold",
+        "titleColor": "white",
+        "maxItems": 10,
         "cardWidth": 280,
         "cardHeight": 157,
         "cardCornerRadius": 12,
         "showProgressBar": true,
+        "progressBarHeight": 4,
+        "progressBarColor": "primary",
         "showTimeLeft": true,
         "showPlayIcon": true,
-        "playIconSize": 48
+        "playIconSize": 48,
+        "playIconBackground": "rgba(0,0,0,0.6)",
+        "gradientOverlay": "rgba(0,0,0,0.8)",
+        "emptyMessage": "Start watching something!"
       },
       "trending": {
         "enabled": true,
         "title": "Trending Now",
+        "titleFontSize": 16,
+        "titleFontWeight": "extraBold",
+        "titleColor": "white",
         "maxItems": 20,
         "posterWidth": 115,
         "posterHeight": 173,
-        "showSeeAll": true
+        "showProgress": false,
+        "showSeeAll": true,
+        "seeAllText": "See All"
       }
     },
     "refreshIntervalMinutes": 60,
@@ -290,6 +312,8 @@
     "voiceSearchEnabled": true,
     "debounceMs": 600,
     "maxResults": 20,
+    "searchHistoryLimit": 20,
+    "searchOnEmpty": true,
     "filters": {
       "types": [
         { "id": "all", "label": "All", "enabled": true, "order": 0 },
@@ -299,7 +323,8 @@
       "defaultType": "all",
       "sortOptions": [
         { "id": "popular", "label": "Most Popular", "enabled": true, "order": 0 },
-        { "id": "newest", "label": "Newest", "enabled": true, "order": 1 }
+        { "id": "newest", "label": "Newest", "enabled": true, "order": 1 },
+        { "id": "rating", "label": "Highest Rated", "enabled": true, "order": 2 }
       ],
       "defaultSort": "popular"
     },
@@ -312,16 +337,22 @@
     "inputField": {
       "height": 56,
       "cornerRadius": 16,
+      "focusedBorderColor": "primary",
+      "unfocusedBorderColor": "rgba(255,255,255,0.2)",
       "labelText": "Search for movies or shows...",
       "labelColor": "rgba(255,255,255,0.7)"
     },
     "chipGroup": {
       "chipHeight": 32,
-      "chipCornerRadius": 16
+      "chipCornerRadius": 16,
+      "selectedContainerColor": "primary",
+      "selectedLabelColor": "onPrimary",
+      "unselectedContainerColor": "surface",
+      "unselectedLabelColor": "onSurface"
     },
     "emptyMessage": "No results found for \"{query}\""
   },
-   "library": {
+  "library": {
     "enabled": true,
     "pullToRefresh": true,
     "refreshIndicatorColor": "primary",
@@ -330,8 +361,11 @@
       "watchlist": {
         "enabled": true,
         "title": "Watchlist",
+        "titleFontSize": 16,
+        "titleFontWeight": "bold",
         "gridColumns": 3,
-        "showPosters": true
+        "showPosters": true,
+        "emptyMessage": "Your watchlist is empty."
       },
       "history": {
         "enabled": true,
@@ -339,15 +373,18 @@
         "cardWidth": 320,
         "cardHeight": 170,
         "cardCornerRadius": 24,
-        "showDelete": true
+        "showDelete": true,
+        "emptyMessage": "You haven't watched anything yet."
       }
     }
   },
-   "details": {
+  "details": {
+    "enabled": true,
     "contentPadding": 25,
     "sectionSpacing": 1,
     "actionSpacing": 1,
     "backdrop": {
+      "enabled": true,
       "height": 170,
       "showTopGradient": true,
       "topGradientAlpha": 0.6,
@@ -359,6 +396,7 @@
     "metadata": {
       "logoAlignment": "center",
       "logoHeight": 120,
+      "logoWidthFraction": 0.6,
       "typeBadgeCornerRadius": 40,
       "typeBadgeBackground": "transparent",
       "typeBadgeTextColor": "white",
@@ -469,7 +507,11 @@
       "enabled": true,
       "style": "chips",
       "maxVisible": 5,
-      "chipCornerRadius": 8
+      "chipCornerRadius": 8,
+      "chipSelectedBackground": "primary",
+      "chipSelectedTextColor": "onPrimary",
+      "chipUnselectedBackground": "surface",
+      "chipUnselectedTextColor": "onSurface"
     },
     "streamsSheet": {
       "qualityFilters": [
@@ -516,13 +558,16 @@
   },
   "player": {
     "customStyle": {
-    "iconColor": "#FFFFFF",
-    "iconBackgroundType": "none",
-    "iconTransparency": 1.0,
-    "progressBarColor": "primary",
-    "progressBarHeight": 4,
-    "progressBarWidthFraction": 1.0,
-    "sheetTransparency": 0.9
+      "primaryColor": "primary",
+      "iconColor": "#FFFFFF",
+      "iconBackgroundType": "none",
+      "iconBackgroundColor": "rgba(0,0,0,0.3)",
+      "iconTransparency": 1.0,
+      "progressBarColor": "primary",
+      "progressBarHeight": 4,
+      "progressBarWidthFraction": 1.0,
+      "sheetTransparency": 0.9,
+      "globalTransparency": 1.0
     },
     "enabled": true,
     "defaultResizeMode": "fit",
@@ -538,6 +583,13 @@
     "uiElements": {
       "showTopBar": true,
       "topBarHeight": 56,
+      "showTitleMetaInfo": true,
+      "titleTextSize": 15,
+      "metaTextSize": 11,
+      "titleMetaPaddingTop": 0,
+      "titleMetaPaddingBottom": 0,
+      "titleMetaPaddingLeft": 8,
+      "titleMetaPaddingRight": 8,
       "showCenterControls": true,
       "centerPlayPauseSize": 80,
       "centerPlayPauseBackground": "rgba(0,0,0,0.3)",
@@ -775,6 +827,7 @@
     "progressBarTrackColor": "rgba(128,128,128,0.3)",
     "emptyPosterColor": "#1A1A1A",
     "imageCacheKeyPrefix": "poster_",
+    "targetResolution": "w185",
     "defaultPosterUrl": ""
   },
   "cache": {
