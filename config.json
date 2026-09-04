@@ -79,11 +79,11 @@
   "splash": {
     "logoUrl": "https://raw.githubusercontent.com/ArchitGurjar/ultrastream_mobile/refs/heads/main/homeScreen.png",
     "logoSize": 130,
-    "animationDurationMs": 3000,
+    "animationDurationMs": 1000,
     "initialAlpha": 0.4,
     "targetAlpha": 4.0,
     "waveHeightDp": 12,
-    "waveSpeedMs": 2000,
+    "waveSpeedMs": 1500,
     "titleText": "ULTRA STREAM",
     "showTitle": true,
     "showLoadingBar": true,
@@ -627,7 +627,7 @@
     "gestures": {
       "enabled": true,
       "doubleTapSeekMs": 10000,
-      "verticalSwipeSensitivity": 2
+      "verticalSwipeSensitivity": 1
     },
     "speeds": [
       { "value": 0.5, "label": "0.5x", "enabled": true },
@@ -929,7 +929,7 @@
     "chromecast": false,
     "debrid": true,
     "skipIntroDetection": true,
-    "sleepTimer": true,
+    "sleepTimer": false,
     "audioEqualizer": true,
     "pip": true,
     "torrentEngine": false
