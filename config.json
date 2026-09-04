@@ -77,7 +77,7 @@
     "queryAllPackages": false
   },
   "splash": {
-    "logoUrl": "https://raw.githubusercontent.com/.../my_logo.png",
+    "logoUrl": "https://raw.githubusercontent.com/ArchitGurjar/ultrastream_mobile/refs/heads/main/homeScreen.png",
     "logoSize": 130,
     "animationDurationMs": 2500,
     "initialAlpha": 0.2,
@@ -212,7 +212,7 @@
       "showLogo": true,
       "logoIcon": "Bolt",
       "logoSize": 28,
-      "logoUrl": "",
+      "logoUrl": "https://raw.githubusercontent.com/ArchitGurjar/ultrastream_mobile/refs/heads/main/homeScreen.png",
       "logoWidth": 28,
       "logoHeight": 28,
       "logoPaddingStart": 0,
