@@ -79,10 +79,10 @@
   "splash": {
     "logoUrl": "https://raw.githubusercontent.com/ArchitGurjar/ultrastream_mobile/refs/heads/main/homeScreen.png",
     "logoSize": 130,
-    "animationDurationMs": 2500,
+    "animationDurationMs": 2000,
     "initialAlpha": 0.2,
-    "targetAlpha": 1.0,
-    "waveHeightDp": 8,
+    "targetAlpha": 4.0,
+    "waveHeightDp": 15,
     "waveSpeedMs": 2000,
     "titleText": "ULTRA STREAM",
     "showTitle": true,
