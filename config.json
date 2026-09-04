@@ -217,7 +217,7 @@
       "logoHeight": 28,
       "logoPaddingStart": 0,
       "logoPaddingTop": 0,
-      "logoPaddingEnd": 0,
+      "logoPaddingEnd": 40,
       "logoPaddingBottom": 0,
       "logoAlpha": 1.0,
       "logoColor": "white",
