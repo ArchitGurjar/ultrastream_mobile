@@ -900,7 +900,7 @@
     "bitcoinAddress": "bc1qjjhupuxq08a89dx75w4lkg9ew643ftsg9tueg5",
      "ethereumLabel": "Ethereum",
     "ethereumAddress": "0x0570c34ac8646d105c56875be1e7665347aa952b",
-    "tetherLabel": "Tether",
+    "tetherLabel": "Tether USDT",
     "tetherAddress": "Doa2Bw3N9T1naoDokmvq5FhrTxuXqgbMecCUTcQ1tT3F",
     "enabled": true
   },
