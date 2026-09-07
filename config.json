@@ -385,11 +385,14 @@
       "buttonCornerRadius": 50,
       "buttonSize": 44
     },
-    "metadata": {
-      "typeBadgeCornerRadius": 50,
+     "metadata": {
+      "logoAlignment": "center",
+      "logoHeight": 120,
+      "logoWidthFraction": 0.6,
+      "typeBadgeCornerRadius": 40,
       "typeBadgeBackground": "transparent",
       "typeBadgeTextColor": "white",
-      "typeBadgeTextSize": 10,
+      "typeBadgeTextSize": 20,
       "typeBadgeFontWeight": "bold",
       "titleFontSize": 28,
       "titleFontWeight": "extraBold",
@@ -397,10 +400,7 @@
       "yearColor": "white",
       "runtimeColor": "white",
       "ratingColor": "accent",
-      "ratingFontWeight": "bold",
-      "logoAlignment": "center",
-      "logoWidthFraction": 0.6,
-      "logoHeight": 110
+      "ratingFontWeight": "bold"
     },
     "description": {
       "enabled": true,
