@@ -360,9 +360,9 @@
   },
   "details": {
     "enabled": true,
-    "contentPadding": 24,
-    "sectionSpacing": 16,
-    "actionSpacing": 12,
+    "contentPadding": 25,
+    "sectionSpacing": 1,
+    "actionSpacing": 1,
     "backdrop": {
       "enabled": true,
       "height": 300,
