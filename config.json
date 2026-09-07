@@ -358,20 +358,20 @@
       }
     }
   },
-  "details": {
+   "details": {
     "enabled": true,
     "contentPadding": 25,
     "sectionSpacing": 1,
     "actionSpacing": 1,
     "backdrop": {
       "enabled": true,
-      "height": 300,
+      "height": 170,
+      "showTopGradient": true,
+      "topGradientAlpha": 0.6,
       "imageQuality": "BACKDROP_LARGE",
       "gradientStartAlpha": 0.0,
       "gradientEndAlpha": 0.8,
-      "gradientEndColor": "background",
-      "showTopGradient": true,
-      "topGradientAlpha": 0.6
+      "gradientEndColor": "background"
     },
     "topBar": {
       "backIcon": "ArrowBack",
