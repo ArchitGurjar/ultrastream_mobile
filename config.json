@@ -712,9 +712,11 @@
     "allowCustomUrl": true,
     "installButtonText": "Install Custom Addon",
     "customUrlInputHint": "Manifest URL",
-    "recommendedAddons": [
-      { "id": "cinemeta", "name": "Cinemeta", "description": "Official Stremio metadata provider", "url": "https://v3-cinemeta.strem.io/manifest.json", "enabled": true },
-      { "id": "hdhub", "name": "HDHub", "description": "High quality streams from various sources", "url": "https://hdhub.thevolecitor.qzz.io/manifest.json", "enabled": true }
+     "recommendedAddons": [
+      { "id": "cinemeta", "name": "Cinemeta", "description": "Official Stremio metadata provider", "url": "https://v3-cinemeta.strem.fun/manifest.json", "enabled": true },
+      { "id": "hdhub", "name": "HDHub", "description": "High quality streams from various sources", "url": "https://hdhub.thevolecitor.qzz.io/manifest.json", "enabled": true },
+      { "id": "PIPE", "name": "PIPE", "description": "stream sources", "url": "https://pipe.boringways.workers.dev/eyJyIjpbIjIxNjBwIl0sInEiOlsiQ0FNIiwiU0NSIiwiVW5rbm93biJdLCJwIjpbIlR1cmtpc2gxMjMiXX0/manifest.json", "enabled": true },
+      { "id": "pingu", "name": "Pingu", "description": "stream scraper", "url": "https://pengu.uk/%7B%22auth_token%22%3A%22E1Z5yR6u35EuHPYWmZvIgtucjiIuNcmKXAKh0ZcufoA%22%7D/manifest.json", "enabled": true }
     ],
     "defaultAddons": ["cinemeta", "opensubtitles"],
     "addonCard": {
