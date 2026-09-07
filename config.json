@@ -1,12 +1,12 @@
 {
-  "version": 4,
+  "version": 2,
   "configUrl": "https://raw.githubusercontent.com/ArchitGurjar/ultrastream_mobile/refs/heads/main/config.json",
   "app": {
     "name": "UltraStream",
     "packageName": "com.ultrastream.app",
     "debugMode": false,
     "splashScreenEnabled": true,
-    "splashScreenDurationMs": 2500,
+    "splashScreenDurationMs": 1500,
     "allowBackup": true,
     "usesCleartextTraffic": true,
     "supportsRtl": false,
@@ -48,8 +48,7 @@
     "defaultAddons": {
       "cinemeta": "https://v3-cinemeta.strem.io/manifest.json",
       "hdhub": "https://hdhub.thevolecitor.qzz.io/eyJ0b3Jib3giOiJ1bnNldCIsInF1YWxpdGllcyI6IjIxNjBwLDEwODBwLDcyMHAiLCJzb3J0IjoiZGVzYyJ9/manifest.json",
-      "opensubtitles": "https://opensubtitles-v3.strem.fun/manifest.json",
-      "local": "https://local.strem.io/manifest.json"
+      "opensubtitles": "https://opensubtitles-v3.strem.fun/manifest.json"
     }
   },
   "permissions": {
@@ -69,26 +68,7 @@
     "downloadWithoutNotification": true,
     "vibrate": true,
     "useBiometric": true,
-    "adId": true,
-    "receiveBootCompleted": false,
-    "scheduleExactAlarm": false,
-    "requestInstallPackages": false,
-    "manageExternalStorage": false,
-    "queryAllPackages": false
-  },
-  "splash": {
-    "logoUrl": "https://raw.githubusercontent.com/ArchitGurjar/ultrastream_mobile/refs/heads/main/homeScreen.png",
-    "logoSize": 130,
-    "animationDurationMs": 4000,
-    "initialAlpha": 0.4,
-    "targetAlpha": 4.0,
-    "waveHeightDp": 12,
-    "waveSpeedMs": 2500,
-    "titleText": "ULTRA STREAM",
-    "showTitle": true,
-    "showLoadingBar": true,
-    "showWaveAnimation": true,
-    "outlineColor": "rgba(255,255,255,0.6)"
+    "adId": true
   },
   "ui": {
     "accentColor": "#FDFCF0",
@@ -122,7 +102,7 @@
       "saturation": 1.2,
       "borderOpacity": 0.2,
       "backgroundOpacity": 0.08,
-      "borderWidth": 1.0
+      "borderWidth": 0.5
     },
     "typography": {
       "headlineLarge": { "size": 24, "weight": "black", "lineHeight": 32 },
@@ -221,20 +201,20 @@
       "logoPaddingBottom": 0,
       "logoAlpha": 1.0,
       "logoColor": "white",
-      "appName": "",
+      "appName": "UltraStream",
       "appNameFontSize": 22,
       "appNameFontWeight": "black",
       "appNameColor": "white",
       "showRefreshButton": true,
       "refreshIcon": "Refresh",
       "refreshIconTint": "rgba(255,255,255,0.7)",
-      "showNotificationsButton": false,
+      "showNotificationsButton": true,
       "notificationsIcon": "Notifications",
       "notificationsIconTint": "rgba(255,255,255,0.7)",
-      "showAnalyticsButton": false,
+      "showAnalyticsButton": true,
       "analyticsIcon": "BarChart",
       "analyticsIconTint": "rgba(255,255,255,0.7)",
-      "showAvatar": false,
+      "showAvatar": true,
       "avatarSize": 32,
       "avatarText": "A",
       "avatarTextColor": "black",
@@ -313,7 +293,6 @@
     "debounceMs": 600,
     "maxResults": 20,
     "searchHistoryLimit": 20,
-    "searchOnEmpty": true,
     "filters": {
       "types": [
         { "id": "all", "label": "All", "enabled": true, "order": 0 },
@@ -334,6 +313,7 @@
       "clearOnExit": false,
       "clearButtonText": "Clear All History"
     },
+    "searchOnEmpty": true,
     "inputField": {
       "height": 56,
       "cornerRadius": 16,
@@ -380,35 +360,18 @@
   },
   "details": {
     "enabled": true,
-    "contentPadding": 25,
-    "sectionSpacing": 1,
-    "actionSpacing": 1,
+    "contentPadding": 24,
+    "sectionSpacing": 16,
+    "actionSpacing": 12,
     "backdrop": {
       "enabled": true,
-      "height": 170,
-      "showTopGradient": true,
-      "topGradientAlpha": 0.6,
+      "height": 300,
       "imageQuality": "BACKDROP_LARGE",
       "gradientStartAlpha": 0.0,
       "gradientEndAlpha": 0.8,
-      "gradientEndColor": "background"
-    },
-    "metadata": {
-      "logoAlignment": "center",
-      "logoHeight": 120,
-      "logoWidthFraction": 0.6,
-      "typeBadgeCornerRadius": 40,
-      "typeBadgeBackground": "transparent",
-      "typeBadgeTextColor": "white",
-      "typeBadgeTextSize": 20,
-      "typeBadgeFontWeight": "bold",
-      "titleFontSize": 28,
-      "titleFontWeight": "extraBold",
-      "titleColor": "white",
-      "yearColor": "white",
-      "runtimeColor": "white",
-      "ratingColor": "accent",
-      "ratingFontWeight": "bold"
+      "gradientEndColor": "background",
+      "showTopGradient": true,
+      "topGradientAlpha": 0.6
     },
     "topBar": {
       "backIcon": "ArrowBack",
@@ -422,6 +385,23 @@
       "buttonCornerRadius": 50,
       "buttonSize": 44
     },
+    "metadata": {
+      "typeBadgeCornerRadius": 50,
+      "typeBadgeBackground": "transparent",
+      "typeBadgeTextColor": "white",
+      "typeBadgeTextSize": 10,
+      "typeBadgeFontWeight": "bold",
+      "titleFontSize": 28,
+      "titleFontWeight": "extraBold",
+      "titleColor": "white",
+      "yearColor": "white",
+      "runtimeColor": "white",
+      "ratingColor": "accent",
+      "ratingFontWeight": "bold",
+      "logoAlignment": "center",
+      "logoWidthFraction": 0.6,
+      "logoHeight": 110
+    },
     "description": {
       "enabled": true,
       "maxLines": 4,
@@ -431,8 +411,7 @@
       "textSize": 14
     },
     "cast": {
-      "interItemSpacing": 10,
-      "enabled": false,
+      "enabled": true,
       "maxItems": 8,
       "chipCornerRadius": 20,
       "chipBorderColor": "rgba(255,255,255,0.2)",
@@ -440,7 +419,8 @@
       "chipTextColor": "white",
       "chipTextSize": 12,
       "chipTextWeight": "medium",
-      "clickable": true
+      "clickable": true,
+      "interItemSpacing": 10
     },
     "actions": {
       "resumeButton": {
@@ -469,7 +449,7 @@
       }
     },
     "ratingCard": {
-      "enabled": false,
+      "enabled": true,
       "cornerRadius": 20,
       "backgroundColor": "transparent",
       "ratingIcon": "Star",
@@ -484,8 +464,6 @@
       "trailerButton": { "enabled": true, "icon": "PlayCircleFilled", "buttonSize": 48 }
     },
     "episodeList": {
-      "listSpacing": 12,
-      "horizontalPadding": 24,
       "showWatchedStatus": true,
       "watchedTextColor": "accent",
       "watchedTextSize": 10,
@@ -501,7 +479,9 @@
       "episodeCardHeight": 100,
       "episodeCardCornerRadius": 20,
       "episodeCardBackground": "surface",
-      "thumbnailWidth": 150
+      "thumbnailWidth": 150,
+      "listSpacing": 12,
+      "horizontalPadding": 24
     },
     "seasonSelector": {
       "enabled": true,
@@ -516,8 +496,6 @@
     "streamsSheet": {
       "qualityFilters": [
         { "id": "All", "label": "All", "enabled": true },
-        { "id": "Verified", "label": "Verified", "enabled": true },
-        { "id": "Hindi", "label": "Hindi", "enabled": true },
         { "id": "4K", "label": "4K", "enabled": true },
         { "id": "1080p", "label": "1080p", "enabled": true },
         { "id": "720p", "label": "720p", "enabled": true }
@@ -544,9 +522,7 @@
       "actions": [
         { "id": "copy_link", "label": "Copy Stream Link", "icon": "ContentCopy", "enabled": true },
         { "id": "external_player", "label": "Open in External Player", "icon": "OpenInNew", "enabled": true },
-        { "id": "download", "label": "Download", "icon": "Download", "enabled": true },
-        { "id": "searchSubtitles", "label": "Search Subtitles", "icon": "ClosedCaption", "enabled": true },
-        { "id": "exportM3u", "label": "Export M3U", "icon": "FileDownload", "enabled": true }
+        { "id": "download", "label": "Download", "icon": "Download", "enabled": true }
       ],
       "actionButtonHeight": 48,
       "actionButtonCornerRadius": 12,
@@ -557,18 +533,6 @@
     }
   },
   "player": {
-    "customStyle": {
-      "primaryColor": "primary",
-      "iconColor": "#FFFFFF",
-      "iconBackgroundType": "none",
-      "iconBackgroundColor": "rgba(0,0,0,0.3)",
-      "iconTransparency": 1.0,
-      "progressBarColor": "primary",
-      "progressBarHeight": 4,
-      "progressBarWidthFraction": 1.0,
-      "sheetTransparency": 0.9,
-      "globalTransparency": 1.0
-    },
     "enabled": true,
     "defaultResizeMode": "fit",
     "resizeModes": [
@@ -624,11 +588,7 @@
       "timeLabelColor": "white",
       "timeLabelSize": 12
     },
-    "gestures": {
-      "enabled": true,
-      "doubleTapSeekMs": 10000,
-      "verticalSwipeSensitivity": 1
-    },
+    "gestures": { "enabled": true },
     "speeds": [
       { "value": 0.5, "label": "0.5x", "enabled": true },
       { "value": 1.0, "label": "Normal", "enabled": true },
@@ -667,9 +627,7 @@
         "fontSizeRange": [12, 40],
         "fontSizeStep": 2
       },
-      "libass": {
-        "enabled": false
-      }
+      "libass": { "enabled": false }
     },
     "decoder": {
       "forceSoftwareOnFail": true,
@@ -731,7 +689,19 @@
       "pollingIntervalMs": 1000,
       "maxPollAttempts": 60
     },
-    "pip": { "enabled": true }
+    "pip": { "enabled": true },
+    "customStyle": {
+      "primaryColor": "primary",
+      "iconColor": "#FFFFFF",
+      "iconBackgroundType": "none",
+      "iconBackgroundColor": "rgba(0,0,0,0.3)",
+      "iconTransparency": 1.0,
+      "progressBarColor": "primary",
+      "progressBarHeight": 4,
+      "progressBarWidthFraction": 1.0,
+      "sheetTransparency": 0.9,
+      "globalTransparency": 1.0
+    }
   },
   "addons": {
     "enabled": true,
@@ -743,10 +713,8 @@
     "installButtonText": "Install Custom Addon",
     "customUrlInputHint": "Manifest URL",
     "recommendedAddons": [
-      { "id": "cinemeta", "name": "Cinemeta", "description": "Official Stremio metadata provider", "url": "https://v3-cinemeta.strem.fun/manifest.json", "enabled": true },
-      { "id": "hdhub", "name": "HDHub", "description": "High quality streams from various sources", "url": "https://hdhub.thevolecitor.qzz.io/manifest.json", "enabled": true },
-      { "id": "PIPE", "name": "PIPE", "description": "stream sources", "url": "https://pipe.boringways.workers.dev/eyJyIjpbIjIxNjBwIl0sInEiOlsiQ0FNIiwiU0NSIiwiVW5rbm93biJdLCJwIjpbIlR1cmtpc2gxMjMiXX0/manifest.json", "enabled": true },
-      { "id": "pingu", "name": "Pingu", "description": "stream scraper", "url": "https://pengu.uk/%7B%22auth_token%22%3A%22E1Z5yR6u35EuHPYWmZvIgtucjiIuNcmKXAKh0ZcufoA%22%7D/manifest.json", "enabled": true }
+      { "id": "cinemeta", "name": "Cinemeta", "description": "Official Stremio metadata provider", "url": "https://v3-cinemeta.strem.io/manifest.json", "enabled": true },
+      { "id": "hdhub", "name": "HDHub", "description": "High quality streams from various sources", "url": "https://hdhub.thevolecitor.qzz.io/manifest.json", "enabled": true }
     ],
     "defaultAddons": ["cinemeta", "opensubtitles"],
     "addonCard": {
@@ -833,8 +801,8 @@
   "cache": {
     "imageCache": {
       "enabled": true,
-      "memoryCachePercent": 0.15,
-      "diskCacheSizeMB": 150,
+      "memoryCachePercent": 0.20,
+      "diskCacheSizeMB": 200,
       "crossfade": false,
       "allowHardware": true,
       "precision": "INEXACT"
@@ -864,12 +832,7 @@
     "connectionPoolSize": 20,
     "keepAliveMinutes": 5,
     "followRedirects": true,
-    "followSslRedirects": true,
-    "headers": {
-      "accept": "application/json",
-      "acceptEncoding": "gzip, deflate",
-      "cacheControl": "no-cache"
-    }
+    "followSslRedirects": true
   },
   "downloads": {
     "enabled": true,
@@ -885,15 +848,7 @@
     "enabled": true,
     "channels": {
       "general": { "id": "general", "name": "General Notifications", "importance": "default" },
-      "updates": { "id": "updates", "name": "App Updates", "importance": "high" },
-      "episodeReleases": { "id": "episode_release_notifications", "name": "Episode Releases", "importance": "default" }
-    },
-    "icons": {
-      "download": "ic_download",
-      "error": "ic_error",
-      "update": "ic_update",
-      "notification": "ic_notification",
-      "play": "ic_play"
+      "updates": { "id": "updates", "name": "App Updates", "importance": "high" }
     }
   },
   "logging": {
@@ -926,21 +881,13 @@
     "backupRestore": true,
     "widget": true,
     "shortcuts": true,
-    "chromecast": false,
+    "chromecast": true,
     "debrid": true,
     "skipIntroDetection": true,
-    "sleepTimer": false,
+    "sleepTimer": true,
     "audioEqualizer": true,
     "pip": true,
     "torrentEngine": false
-  },
-  "update": {
-    "latestVersionCode": 4,
-    "latestVersionName": "1.0.3",
-    "updateUrl": "https://github.com/ArchitGurjar/ultrastream_mobile/releases",
-    "releaseNotes": "UI Polish and Performance improvements.",
-    "forceUpdate": false,
-    "minVersionCode": 0
   },
   "donation": {
     "title": "Support the Project",
@@ -949,6 +896,23 @@
     "coffeeLinkText": "buymeacoffee.com/UltraStreamApp",
     "patreonUrl": "https://www.patreon.com/ultrastream",
     "patreonLinkText": "patreon.com/ultrastream",
+    "bitcoinAddress": "",
+    "ethereumAddress": "",
+    "tetherAddress": "",
     "enabled": true
+  },
+  "splash": {
+    "logoUrl": "https://raw.githubusercontent.com/ArchitGurjar/ultrastream_mobile/refs/heads/main/homeScreen.png",
+    "logoSize": 170,
+    "animationDurationMs": 1500,
+    "initialAlpha": 0.2,
+    "targetAlpha": 1.0,
+    "waveHeightDp": 8,
+    "waveSpeedMs": 2000,
+    "titleText": "ULTRA STREAM",
+    "showTitle": true,
+    "showLoadingBar": true,
+    "showWaveAnimation": true,
+    "outlineColor": "rgba(255,255,255,0.5)"
   }
 }
