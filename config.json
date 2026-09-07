@@ -373,19 +373,7 @@
       "gradientEndAlpha": 0.8,
       "gradientEndColor": "background"
     },
-    "topBar": {
-      "backIcon": "ArrowBack",
-      "backIconTint": "white",
-      "backButtonSize": 44,
-      "libraryIcon": "Bookmark",
-      "libraryIconOutline": "BookmarkBorder",
-      "libraryIconTint": "white",
-      "libraryIconSelectedTint": "accent",
-      "buttonBackground": "transparent",
-      "buttonCornerRadius": 50,
-      "buttonSize": 44
-    },
-     "metadata": {
+    "metadata": {
       "logoAlignment": "center",
       "logoHeight": 120,
       "logoWidthFraction": 0.6,
@@ -402,6 +390,18 @@
       "ratingColor": "accent",
       "ratingFontWeight": "bold"
     },
+    "topBar": {
+      "backIcon": "ArrowBack",
+      "backIconTint": "white",
+      "backButtonSize": 44,
+      "libraryIcon": "Bookmark",
+      "libraryIconOutline": "BookmarkBorder",
+      "libraryIconTint": "white",
+      "libraryIconSelectedTint": "accent",
+      "buttonBackground": "transparent",
+      "buttonCornerRadius": 50,
+      "buttonSize": 44
+    },
     "description": {
       "enabled": true,
       "maxLines": 4,
@@ -411,7 +411,8 @@
       "textSize": 14
     },
     "cast": {
-      "enabled": true,
+      "interItemSpacing": 10,
+      "enabled": false,
       "maxItems": 8,
       "chipCornerRadius": 20,
       "chipBorderColor": "rgba(255,255,255,0.2)",
@@ -419,8 +420,7 @@
       "chipTextColor": "white",
       "chipTextSize": 12,
       "chipTextWeight": "medium",
-      "clickable": true,
-      "interItemSpacing": 10
+      "clickable": true
     },
     "actions": {
       "resumeButton": {
@@ -449,7 +449,7 @@
       }
     },
     "ratingCard": {
-      "enabled": true,
+      "enabled": false,
       "cornerRadius": 20,
       "backgroundColor": "transparent",
       "ratingIcon": "Star",
@@ -464,6 +464,8 @@
       "trailerButton": { "enabled": true, "icon": "PlayCircleFilled", "buttonSize": 48 }
     },
     "episodeList": {
+      "listSpacing": 12,
+      "horizontalPadding": 24,
       "showWatchedStatus": true,
       "watchedTextColor": "accent",
       "watchedTextSize": 10,
@@ -479,9 +481,7 @@
       "episodeCardHeight": 100,
       "episodeCardCornerRadius": 20,
       "episodeCardBackground": "surface",
-      "thumbnailWidth": 150,
-      "listSpacing": 12,
-      "horizontalPadding": 24
+      "thumbnailWidth": 150
     },
     "seasonSelector": {
       "enabled": true,
