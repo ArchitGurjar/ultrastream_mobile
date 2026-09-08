@@ -1214,7 +1214,7 @@
   "update": {
     "latestVersionCode": 5,
     "latestVersionName": "1.0.4",
-    "updateUrl": "https://github.com/ArchitGurjar/ultrastream_mobile/releases/download/v1.0.3/app-release.apk",
+    "updateUrl": "https://github.com/ArchitGurjar/ultrastream_mobile/releases/download/v1.0.4/UltraStream.apk",
     "releaseNotes": "Bug fixes and performance optimizations.",
     "forceUpdate": true,
     "minVersionCode": 0
