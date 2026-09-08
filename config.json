@@ -10,16 +10,35 @@
     "allowBackup": true,
     "usesCleartextTraffic": true,
     "supportsRtl": false,
-    "deepLinkSchemes": ["stremio", "ultrastream", "https"],
-    "deepLinkHosts": ["ultrastream.app", "www.ultrastream.app"],
+    "deepLinkSchemes": [
+      "stremio",
+      "ultrastream",
+      "https"
+    ],
+    "deepLinkHosts": [
+      "ultrastream.app",
+      "www.ultrastream.app"
+    ],
     "defaultProfileId": "default",
     "maxProfiles": 5,
     "offlineModeEnabled": true,
     "defaultTheme": "dark",
     "supportedLanguages": [
-      { "code": "en", "label": "English", "enabled": true },
-      { "code": "es", "label": "Español", "enabled": true },
-      { "code": "hi", "label": "हिंदी", "enabled": true }
+      {
+        "code": "en",
+        "label": "English",
+        "enabled": true
+      },
+      {
+        "code": "es",
+        "label": "Español",
+        "enabled": true
+      },
+      {
+        "code": "hi",
+        "label": "हिंदी",
+        "enabled": true
+      }
     ],
     "minSdk": 24,
     "targetSdk": 35,
@@ -47,7 +66,6 @@
     },
     "defaultAddons": {
       "cinemeta": "https://v3-cinemeta.strem.io/manifest.json",
-      " ": " ",
       "opensubtitles": "https://opensubtitles-v3.strem.fun/manifest.json"
     }
   },
@@ -105,11 +123,31 @@
       "borderWidth": 0.5
     },
     "typography": {
-      "headlineLarge": { "size": 24, "weight": "black", "lineHeight": 32 },
-      "headlineMedium": { "size": 20, "weight": "bold", "lineHeight": 28 },
-      "headlineSmall": { "size": 18, "weight": "bold", "lineHeight": 24 },
-      "bodyLarge": { "size": 16, "weight": "normal", "lineHeight": 24 },
-      "bodyMedium": { "size": 14, "weight": "normal", "lineHeight": 20 }
+      "headlineLarge": {
+        "size": 24,
+        "weight": "black",
+        "lineHeight": 32
+      },
+      "headlineMedium": {
+        "size": 20,
+        "weight": "bold",
+        "lineHeight": 28
+      },
+      "headlineSmall": {
+        "size": 18,
+        "weight": "bold",
+        "lineHeight": 24
+      },
+      "bodyLarge": {
+        "size": 16,
+        "weight": "normal",
+        "lineHeight": 24
+      },
+      "bodyMedium": {
+        "size": 14,
+        "weight": "normal",
+        "lineHeight": 20
+      }
     },
     "spacing": {
       "small": 8,
@@ -179,11 +217,46 @@
     "labelFontWeight": "bold",
     "showLabels": true,
     "items": [
-      { "id": "home", "title": "Home", "icon": "Home", "route": "home", "enabled": true, "order": 0 },
-      { "id": "library", "title": "Library", "icon": "VideoLibrary", "route": "library", "enabled": true, "order": 1 },
-      { "id": "search", "title": "Search", "icon": "Search", "route": "search", "enabled": true, "order": 2 },
-      { "id": "addons", "title": "Addons", "icon": "Extension", "route": "addons", "enabled": true, "order": 3 },
-      { "id": "profile", "title": "Profile", "icon": "Person", "route": "profile", "enabled": true, "order": 4 }
+      {
+        "id": "home",
+        "title": "Home",
+        "icon": "Home",
+        "route": "home",
+        "enabled": true,
+        "order": 0
+      },
+      {
+        "id": "library",
+        "title": "Library",
+        "icon": "VideoLibrary",
+        "route": "library",
+        "enabled": true,
+        "order": 1
+      },
+      {
+        "id": "search",
+        "title": "Search",
+        "icon": "Search",
+        "route": "search",
+        "enabled": true,
+        "order": 2
+      },
+      {
+        "id": "addons",
+        "title": "Addons",
+        "icon": "Extension",
+        "route": "addons",
+        "enabled": true,
+        "order": 3
+      },
+      {
+        "id": "profile",
+        "title": "Profile",
+        "icon": "Person",
+        "route": "profile",
+        "enabled": true,
+        "order": 4
+      }
     ]
   },
   "home": {
@@ -295,15 +368,45 @@
     "searchHistoryLimit": 20,
     "filters": {
       "types": [
-        { "id": "all", "label": "All", "enabled": true, "order": 0 },
-        { "id": "movie", "label": "Movies", "enabled": true, "order": 1 },
-        { "id": "series", "label": "TV Shows", "enabled": true, "order": 2 }
+        {
+          "id": "all",
+          "label": "All",
+          "enabled": true,
+          "order": 0
+        },
+        {
+          "id": "movie",
+          "label": "Movies",
+          "enabled": true,
+          "order": 1
+        },
+        {
+          "id": "series",
+          "label": "TV Shows",
+          "enabled": true,
+          "order": 2
+        }
       ],
       "defaultType": "all",
       "sortOptions": [
-        { "id": "popular", "label": "Most Popular", "enabled": true, "order": 0 },
-        { "id": "newest", "label": "Newest", "enabled": true, "order": 1 },
-        { "id": "rating", "label": "Highest Rated", "enabled": true, "order": 2 }
+        {
+          "id": "popular",
+          "label": "Most Popular",
+          "enabled": true,
+          "order": 0
+        },
+        {
+          "id": "newest",
+          "label": "Newest",
+          "enabled": true,
+          "order": 1
+        },
+        {
+          "id": "rating",
+          "label": "Highest Rated",
+          "enabled": true,
+          "order": 2
+        }
       ],
       "defaultSort": "popular"
     },
@@ -358,7 +461,7 @@
       }
     }
   },
-   "details": {
+  "details": {
     "enabled": true,
     "contentPadding": 25,
     "sectionSpacing": 1,
@@ -460,8 +563,16 @@
       "ratingValueWeight": "black",
       "maxRatingText": "/10",
       "maxRatingColor": "textMuted",
-      "imdbButton": { "enabled": true, "icon": "Link", "buttonSize": 48 },
-      "trailerButton": { "enabled": true, "icon": "PlayCircleFilled", "buttonSize": 48 }
+      "imdbButton": {
+        "enabled": true,
+        "icon": "Link",
+        "buttonSize": 48
+      },
+      "trailerButton": {
+        "enabled": true,
+        "icon": "PlayCircleFilled",
+        "buttonSize": 48
+      }
     },
     "episodeList": {
       "listSpacing": 12,
@@ -495,10 +606,26 @@
     },
     "streamsSheet": {
       "qualityFilters": [
-        { "id": "All", "label": "All", "enabled": true },
-        { "id": "4K", "label": "4K", "enabled": true },
-        { "id": "1080p", "label": "1080p", "enabled": true },
-        { "id": "720p", "label": "720p", "enabled": true }
+        {
+          "id": "All",
+          "label": "All",
+          "enabled": true
+        },
+        {
+          "id": "4K",
+          "label": "4K",
+          "enabled": true
+        },
+        {
+          "id": "1080p",
+          "label": "1080p",
+          "enabled": true
+        },
+        {
+          "id": "720p",
+          "label": "720p",
+          "enabled": true
+        }
       ],
       "defaultQualityFilter": "All",
       "showRefresh": true,
@@ -520,9 +647,24 @@
       "playButtonBackground": "white",
       "playButtonTextColor": "black",
       "actions": [
-        { "id": "copy_link", "label": "Copy Stream Link", "icon": "ContentCopy", "enabled": true },
-        { "id": "external_player", "label": "Open in External Player", "icon": "OpenInNew", "enabled": true },
-        { "id": "download", "label": "Download", "icon": "Download", "enabled": true }
+        {
+          "id": "copy_link",
+          "label": "Copy Stream Link",
+          "icon": "ContentCopy",
+          "enabled": true
+        },
+        {
+          "id": "external_player",
+          "label": "Open in External Player",
+          "icon": "OpenInNew",
+          "enabled": true
+        },
+        {
+          "id": "download",
+          "label": "Download",
+          "icon": "Download",
+          "enabled": true
+        }
       ],
       "actionButtonHeight": 48,
       "actionButtonCornerRadius": 12,
@@ -536,9 +678,21 @@
     "enabled": true,
     "defaultResizeMode": "fit",
     "resizeModes": [
-      { "id": "fit", "label": "Fit", "enabled": true },
-      { "id": "fill", "label": "Fill", "enabled": true },
-      { "id": "zoom", "label": "Zoom", "enabled": true }
+      {
+        "id": "fit",
+        "label": "Fit",
+        "enabled": true
+      },
+      {
+        "id": "fill",
+        "label": "Fill",
+        "enabled": true
+      },
+      {
+        "id": "zoom",
+        "label": "Zoom",
+        "enabled": true
+      }
     ],
     "controlsTimeoutMs": 5000,
     "showLoadingOverlay": true,
@@ -588,12 +742,30 @@
       "timeLabelColor": "white",
       "timeLabelSize": 12
     },
-    "gestures": { "enabled": true },
+    "gestures": {
+      "enabled": true
+    },
     "speeds": [
-      { "value": 0.5, "label": "0.5x", "enabled": true },
-      { "value": 1.0, "label": "Normal", "enabled": true },
-      { "value": 1.5, "label": "1.5x", "enabled": true },
-      { "value": 2.0, "label": "2.0x", "enabled": true }
+      {
+        "value": 0.5,
+        "label": "0.5x",
+        "enabled": true
+      },
+      {
+        "value": 1.0,
+        "label": "Normal",
+        "enabled": true
+      },
+      {
+        "value": 1.5,
+        "label": "1.5x",
+        "enabled": true
+      },
+      {
+        "value": 2.0,
+        "label": "2.0x",
+        "enabled": true
+      }
     ],
     "audio": {
       "loudnessBoost": true,
@@ -623,11 +795,19 @@
         "edgeType": "none"
       },
       "settings": {
-        "offsetRangeMs": [-2000, 2000],
-        "fontSizeRange": [12, 40],
+        "offsetRangeMs": [
+          -2000,
+          2000
+        ],
+        "fontSizeRange": [
+          12,
+          40
+        ],
         "fontSizeStep": 2
       },
-      "libass": { "enabled": false }
+      "libass": {
+        "enabled": false
+      }
     },
     "decoder": {
       "forceSoftwareOnFail": true,
@@ -658,18 +838,38 @@
       "sendSkipSegments": true,
       "defaultPlayerId": "android_system",
       "availablePlayers": [
-        { "id": "vlc", "label": "VLC Player", "enabled": true, "package": "org.videolan.vlc" },
-        { "id": "mx", "label": "MX Player", "enabled": true, "package": "com.mxtech.videoplayer.ad" }
+        {
+          "id": "vlc",
+          "label": "VLC Player",
+          "enabled": true,
+          "package": "org.videolan.vlc"
+        },
+        {
+          "id": "mx",
+          "label": "MX Player",
+          "enabled": true,
+          "package": "com.mxtech.videoplayer.ad"
+        }
       ]
     },
     "sleepTimer": {
       "enabled": true,
       "defaultMinutes": 30,
-      "options": [15, 30, 45, 60, 90, 120]
+      "options": [
+        15,
+        30,
+        45,
+        60,
+        90,
+        120
+      ]
     },
     "skipIntro": {
       "enabled": true,
-      "sources": ["introdb", "local"],
+      "sources": [
+        "introdb",
+        "local"
+      ],
       "buttonText": "Skip Intro",
       "buttonBackground": "white",
       "buttonTextColor": "black",
@@ -684,12 +884,18 @@
     },
     "debrid": {
       "preferDebrid": true,
-      "providerOrder": ["realdebrid", "alldebrid", "premiumize"],
+      "providerOrder": [
+        "realdebrid",
+        "alldebrid",
+        "premiumize"
+      ],
       "resolveTimeoutSeconds": 60,
       "pollingIntervalMs": 1000,
       "maxPollAttempts": 60
     },
-    "pip": { "enabled": true },
+    "pip": {
+      "enabled": true
+    },
     "customStyle": {
       "primaryColor": "primary",
       "iconColor": "#FFFFFF",
@@ -712,13 +918,40 @@
     "allowCustomUrl": true,
     "installButtonText": "Install Custom Addon",
     "customUrlInputHint": "Manifest URL",
-     "recommendedAddons": [
-      { "id": "cinemeta", "name": "Cinemeta", "description": "Official Stremio metadata provider", "url": "https://v3-cinemeta.strem.fun/manifest.json", "enabled": true },
-      { "id": "hdhub", "name": "HDHub", "description": "High quality streams from various sources", "url": "https://hdhub.thevolecitor.qzz.io/manifest.json", "enabled": true },
-      { "id": "PIPE", "name": "PIPE", "description": "stream sources", "url": "https://pipe.boringways.workers.dev/eyJyIjpbIjIxNjBwIl0sInEiOlsiQ0FNIiwiU0NSIiwiVW5rbm93biJdLCJwIjpbIlR1cmtpc2gxMjMiXX0/manifest.json", "enabled": true },
-      { "id": "pingu", "name": "Pingu", "description": "stream scraper", "url": "https://pengu.uk/%7B%22auth_token%22%3A%22E1Z5yR6u35EuHPYWmZvIgtucjiIuNcmKXAKh0ZcufoA%22%7D/manifest.json", "enabled": true }
+    "recommendedAddons": [
+      {
+        "id": "cinemeta",
+        "name": "Cinemeta",
+        "description": "Official Stremio metadata provider",
+        "url": "https://v3-cinemeta.strem.fun/manifest.json",
+        "enabled": true
+      },
+      {
+        "id": "hdhub",
+        "name": "HDHub",
+        "description": "High quality streams from various sources",
+        "url": "https://hdhub.thevolecitor.qzz.io/manifest.json",
+        "enabled": true
+      },
+      {
+        "id": "PIPE",
+        "name": "PIPE",
+        "description": "stream sources",
+        "url": "https://pipe.boringways.workers.dev/eyJyIjpbIjIxNjBwIl0sInEiOlsiQ0FNIiwiU0NSIiwiVW5rbm93biJdLCJwIjpbIlR1cmtpc2gxMjMiXX0/manifest.json",
+        "enabled": true
+      },
+      {
+        "id": "pingu",
+        "name": "Pingu",
+        "description": "stream scraper",
+        "url": "https://pengu.uk/%7B%22auth_token%22%3A%22E1Z5yR6u35EuHPYWmZvIgtucjiIuNcmKXAKh0ZcufoA%22%7D/manifest.json",
+        "enabled": true
+      }
     ],
-    "defaultAddons": ["cinemeta", "opensubtitles"],
+    "defaultAddons": [
+      "cinemeta",
+      "opensubtitles"
+    ],
     "addonCard": {
       "cornerRadius": 20,
       "padding": 16,
@@ -736,9 +969,21 @@
   "debrid": {
     "enabled": true,
     "providers": [
-      { "id": "realdebrid", "label": "Real-Debrid", "enabled": true },
-      { "id": "alldebrid", "label": "AllDebrid", "enabled": true },
-      { "id": "premiumize", "label": "Premiumize", "enabled": true }
+      {
+        "id": "realdebrid",
+        "label": "Real-Debrid",
+        "enabled": true
+      },
+      {
+        "id": "alldebrid",
+        "label": "AllDebrid",
+        "enabled": true
+      },
+      {
+        "id": "premiumize",
+        "label": "Premiumize",
+        "enabled": true
+      }
     ],
     "defaultProvider": "realdebrid",
     "apiKeyRequired": true,
@@ -757,17 +1002,49 @@
   "profile": {
     "enabled": true,
     "parentalRatings": [
-      { "id": "G", "label": "General", "level": 0, "enabled": true },
-      { "id": "PG", "label": "Parental Guidance", "level": 1, "enabled": true },
-      { "id": "PG-13", "label": "Parents Strongly Cautioned", "level": 2, "enabled": true },
-      { "id": "R", "label": "Restricted", "level": 3, "enabled": true }
+      {
+        "id": "G",
+        "label": "General",
+        "level": 0,
+        "enabled": true
+      },
+      {
+        "id": "PG",
+        "label": "Parental Guidance",
+        "level": 1,
+        "enabled": true
+      },
+      {
+        "id": "PG-13",
+        "label": "Parents Strongly Cautioned",
+        "level": 2,
+        "enabled": true
+      },
+      {
+        "id": "R",
+        "label": "Restricted",
+        "level": 3,
+        "enabled": true
+      }
     ],
     "defaultParentalRating": "PG-13",
     "settingsToggles": [
-      { "id": "auto_play", "label": "Auto Play Next Episode", "enabled": true },
-      { "id": "data_saver", "label": "Data Saver Mode", "enabled": false }
+      {
+        "id": "auto_play",
+        "label": "Auto Play Next Episode",
+        "enabled": true
+      },
+      {
+        "id": "data_saver",
+        "label": "Data Saver Mode",
+        "enabled": false
+      }
     ],
-    "pin": { "maxAttempts": 5, "lockoutDurationMinutes": 30, "pinMinLength": 4 }
+    "pin": {
+      "maxAttempts": 5,
+      "lockoutDurationMinutes": 30,
+      "pinMinLength": 4
+    }
   },
   "poster": {
     "width": 115,
@@ -803,7 +1080,7 @@
   "cache": {
     "imageCache": {
       "enabled": true,
-      "memoryCachePercent": 0.20,
+      "memoryCachePercent": 0.2,
       "diskCacheSizeMB": 200,
       "crossfade": false,
       "allowHardware": true,
@@ -815,11 +1092,31 @@
       "evictor": "LRU",
       "databaseProvider": "StandaloneDatabaseProvider"
     },
-    "metadataCache": { "ttlHours": 24, "enabled": true, "cacheKeyPrefix": "meta:" },
-    "streamLinkCache": { "ttlHours": 24, "enabled": true, "cacheKeyPrefix": "stream:" },
-    "verifiedLinkCache": { "ttlHours": 5, "minExpiryHours": 2, "maxExpiryHours": 5, "enabled": true },
-    "deadLinkCache": { "ttlDays": 7, "enabled": true },
-    "sonicCache": { "enabled": true, "ttlHours": 2, "cacheKeyPrefix": "sonic:" }
+    "metadataCache": {
+      "ttlHours": 24,
+      "enabled": true,
+      "cacheKeyPrefix": "meta:"
+    },
+    "streamLinkCache": {
+      "ttlHours": 24,
+      "enabled": true,
+      "cacheKeyPrefix": "stream:"
+    },
+    "verifiedLinkCache": {
+      "ttlHours": 5,
+      "minExpiryHours": 2,
+      "maxExpiryHours": 5,
+      "enabled": true
+    },
+    "deadLinkCache": {
+      "ttlDays": 7,
+      "enabled": true
+    },
+    "sonicCache": {
+      "enabled": true,
+      "ttlHours": 2,
+      "cacheKeyPrefix": "sonic:"
+    }
   },
   "network": {
     "preferIPv4": true,
@@ -839,7 +1136,10 @@
   "downloads": {
     "enabled": true,
     "directory": "UltraStream",
-    "allowedNetworks": ["WIFI", "CELLULAR"],
+    "allowedNetworks": [
+      "WIFI",
+      "CELLULAR"
+    ],
     "showNotification": true,
     "notificationChannelId": "downloads",
     "notificationImportance": "low",
@@ -849,8 +1149,16 @@
   "notifications": {
     "enabled": true,
     "channels": {
-      "general": { "id": "general", "name": "General Notifications", "importance": "default" },
-      "updates": { "id": "updates", "name": "App Updates", "importance": "high" }
+      "general": {
+        "id": "general",
+        "name": "General Notifications",
+        "importance": "default"
+      },
+      "updates": {
+        "id": "updates",
+        "name": "App Updates",
+        "importance": "high"
+      }
     }
   },
   "logging": {
@@ -898,9 +1206,9 @@
     "coffeeLinkText": "buymeacoffee.com/UltraStreamApp",
     "patreonUrl": "https://patreon.com/UltrastreamApp",
     "patreonLinkText": "patreon.com/ultrastreamApp",
-     "bitcoinLabel": "Bitcoin",
+    "bitcoinLabel": "Bitcoin",
     "bitcoinAddress": "bc1qjjhupuxq08a89dx75w4lkg9ew643ftsg9tueg5",
-     "ethereumLabel": "Ethereum",
+    "ethereumLabel": "Ethereum",
     "ethereumAddress": "0x0570c34ac8646d105c56875be1e7665347aa952b",
     "tetherLabel": "Tether USDT",
     "tetherAddress": "Doa2Bw3N9T1naoDokmvq5FhrTxuXqgbMecCUTcQ1tT3F",
@@ -919,5 +1227,13 @@
     "showLoadingBar": true,
     "showWaveAnimation": true,
     "outlineColor": "rgba(255,255,255,0.5)"
+  },
+  "update": {
+    "latestVersionCode": 4,
+    "latestVersionName": "1.0.3",
+    "updateUrl": "https://github.com/ArchitGurjar/ultrastream_mobile/releases/download/v1.0.3/UltraStream.apk",
+    "releaseNotes": "Bug fixes and performance optimizations.",
+    "forceUpdate": false,
+    "minVersionCode": 0
   }
 }
