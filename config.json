@@ -1233,7 +1233,7 @@
     "latestVersionName": "1.0.3",
     "updateUrl": "https://github.com/ArchitGurjar/ultrastream_mobile/releases/download/v1.0.3/UltraStream.apk",
     "releaseNotes": "Bug fixes and performance optimizations.",
-    "forceUpdate": false,
+    "forceUpdate": true,
     "minVersionCode": 0
   }
 }
