@@ -1229,7 +1229,7 @@
     "outlineColor": "rgba(255,255,255,0.5)"
   },
   "update": {
-    "latestVersionCode": 5,
+    "latestVersionCode": 4,
     "latestVersionName": "1.0.3",
     "updateUrl": "https://github.com/ArchitGurjar/ultrastream_mobile/releases/download/v1.0.3/UltraStream.apk",
     "releaseNotes": "Bug fixes and performance optimizations.",
