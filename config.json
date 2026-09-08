@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "configUrl": "https://raw.githubusercontent.com/ArchitGurjar/ultrastream_mobile/refs/heads/main/config.json",
   "app": {
     "name": "UltraStream",
@@ -1212,9 +1212,9 @@
     "outlineColor": "rgba(255,255,255,0.5)"
   },
   "update": {
-    "latestVersionCode": 4,
-    "latestVersionName": "1.0.3",
-    "updateUrl": "https://github.com/ArchitGurjar/ultrastream_mobile/releases/download/v1.0.3/UltraStream.apk",
+    "latestVersionCode": 5,
+    "latestVersionName": "1.0.4",
+    "updateUrl": "https://github.com/ArchitGurjar/ultrastream_mobile/releases/download/v1.0.3/app-release.apk",
     "releaseNotes": "Bug fixes and performance optimizations.",
     "forceUpdate": true,
     "minVersionCode": 0
